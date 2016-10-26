@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">Riosucio</string>
+    <string name="title_activity_cardview">Carnaval</string>
+    <string name="title_activity_cuadrillas">Cuadrillas</string>
+    <string name="Titulo_paisaje_mañana">Desfiles de Cuadrillas</string>
+    <string name="titulo_afiche_carnaval">Afiche Carnaval Riosucio</string>
+    <string name="title_activity_navigation_drawer__home">Home</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="Titulo_CORPORACION">CORPORACIÓN</string>
+    <string name="Titulo_carnaval">Carnaval De Riosucio</string>
+    <string name="Patrimonio_Lema">Patrimonio Cultural Oral e Inmaterial de la Nación</string>
+
+
+    <string name="action_settings">Settings</string>
+
+
+    <!-- String del Himno del carnaval-->
+    <string name="titilo_himno">LETRA HIMNO DEL CARNAVAL</string>
+    <string name="letra_Himno">
+        ¡Salve, salve, placer de la vida!
+¡Salve, salve, sin par Carnaval!
+De Riosucio la tierra querida
+eres timbre de gloria inmortal.
+
+Nuestros padres por este gran día
+Encontraban en ti su placer,
+cuando alguno de Diablo, llovía
+vejigazos a más no poder.
+
+Vino un día del arte y la ciencia
+la magnífica luz a alumbrar,
+e inspiraste con gran excelencia
+las Cuadrillas de fama sin par..
+
+¡Salve, salve, placer de la vida!
+¡Salve, salve, sin par Carnaval!
+De Riosucio la tierra querida
+eres timbre de gloria inmortal.
+
+“Las Cuadrillas de ingenio fecundo
+tanto nombre han llegado a alcanzar
+que ninguna otra parte del mundo
+nuestra fiesta podrán superar…”.
+
+A Riosucio por siglos sin cuento
+no le falte su regio esplendor,
+y que seas el fiel monumento
+que eternice su fama y honor.
+
+¡Salve, salve, placer de la vida!
+¡Salve, salve, sin par Carnaval!
+De Riosucio la tierra querida
+eres timbre de gloria inmortal.
+
+Tu eres fuente de paz y ventura
+panacea del pobre mortal;
+tu has venido quizás de la Altura
+como prenda de don Celestial.</string>
+</resources>

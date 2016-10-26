@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.controlapp.beto.riosucio">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/circuloblanco"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".Mapas"
+            android:label="@string/title_activity_cuadrillas"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Cuadrillas"
+            android:label="@string/title_activity_cuadrillas"
+            android:theme="@style/AppTheme"
+            android:parentActivityName="com.controlapp.beto.riosucio.NavigationDrawer_Home">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".NavigationDrawer_Home" />
+        </activity>
+        <activity
+            android:name=".Cardview"
+            android:label="@string/title_activity_cardview"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".NavigationDrawer_Home"
+            android:label="@string/title_activity_navigation_drawer__home"
+            android:theme="@style/AppTheme">
+
+        </activity>
+
+    </application>
+
+</manifest>
