@@ -29,9 +29,9 @@ public class Cardview extends AppCompatActivity {
         LinearLayoutManager llm = new LinearLayoutManager(this);
         llm.setOrientation(LinearLayoutManager.VERTICAL);
         ListaTarjetas.setLayoutManager(llm);
-
+/*
         inicializarDatos();
-        inicializaAdaptador();
+        inicializaAdaptador();*/
 
 
 
@@ -44,7 +44,7 @@ public class Cardview extends AppCompatActivity {
             }
         });
     }
-
+/*
     public void inicializarDatos(){
         Tarjetas = new ArrayList<>();
         Tarjetas.add(new Tarjeta(R.drawable.desfile, "Desfile De Cuadrillas"));
@@ -53,12 +53,12 @@ public class Cardview extends AppCompatActivity {
         Tarjetas.add(new Tarjeta(R.drawable.riosucio, "Panoramica Riosicio"));
 
 
-    }
+    }*/
 
-
+/*
     public TarjetaAdapador adaptador;
     private void inicializaAdaptador(){
         adaptador = new TarjetaAdapador(Tarjetas);
         ListaTarjetas.setAdapter(adaptador);
-    }
+    }*/
 }
