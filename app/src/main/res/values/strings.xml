@@ -16,46 +16,66 @@
     <string name="action_settings">Settings</string>
 
 
+
     <!-- String del Himno del carnaval-->
     <string name="titilo_himno">LETRA HIMNO DEL CARNAVAL</string>
-    <string name="letra_Himno">
+    <string name="Primera_estrofa" >
         ¡Salve, salve, placer de la vida!
+        ¡Salve, salve, sin par Carnaval!
+        De Riosucio la tierra querida
+        eres timbre de gloria inmortal..\u266A
+    </string>
+    <string name="Segunda_estrofa">
+        Nuestros padres por este gran día
+        Encontraban en ti su placer,
+        cuando alguno de Diablo, llovía
+        vejigazos a más no poder.. \u266A
+    </string>
+    <string name="Tercera_estrofa">
+        Vino un día del arte y la ciencia
+        la magnífica luz a alumbrar,
+        e inspiraste con gran excelencia
+        las Cuadrillas de fama sin par..\u266A
+    </string>
+
+    <string name="Cuarta_estrofa">
+
+        ¡Salve, salve, placer de la vida!
+        ¡Salve, salve, sin par Carnaval!
+        De Riosucio la tierra querida
+        eres timbre de gloria inmortal..\u266A
+
+    </string>
+
+    <string name="Quinta_estrofa">
+        “Las Cuadrillas de ingenio fecundo
+        tanto nombre han llegado a alcanzar
+        que ninguna otra parte del mundo
+        nuestra fiesta podrán superar…”..\u266A
+
+    </string>
+
+    <string name="Sexta_estrofa">
+
+    A Riosucio por siglos sin cuento
+    no le falte su regio esplendor,
+    y que seas el fiel monumento
+    que eternice su fama y honor..\u266A
+    </string>
+
+    <string name="Septima_estrofa">
+       ¡Salve, salve, placer de la vida!
 ¡Salve, salve, sin par Carnaval!
 De Riosucio la tierra querida
-eres timbre de gloria inmortal.
+eres timbre de gloria inmortal..\u266A
+    </string>
 
-Nuestros padres por este gran día
-Encontraban en ti su placer,
-cuando alguno de Diablo, llovía
-vejigazos a más no poder.
+<string name="Octava_estrofa">
+    Tu eres fuente de paz y ventura
+    panacea del pobre mortal;
+    tu has venido quizás de la Altura
+    como prenda de don Celestial..\u266A
+</string>
 
-Vino un día del arte y la ciencia
-la magnífica luz a alumbrar,
-e inspiraste con gran excelencia
-las Cuadrillas de fama sin par..
 
-¡Salve, salve, placer de la vida!
-¡Salve, salve, sin par Carnaval!
-De Riosucio la tierra querida
-eres timbre de gloria inmortal.
-
-“Las Cuadrillas de ingenio fecundo
-tanto nombre han llegado a alcanzar
-que ninguna otra parte del mundo
-nuestra fiesta podrán superar…”.
-
-A Riosucio por siglos sin cuento
-no le falte su regio esplendor,
-y que seas el fiel monumento
-que eternice su fama y honor.
-
-¡Salve, salve, placer de la vida!
-¡Salve, salve, sin par Carnaval!
-De Riosucio la tierra querida
-eres timbre de gloria inmortal.
-
-Tu eres fuente de paz y ventura
-panacea del pobre mortal;
-tu has venido quizás de la Altura
-como prenda de don Celestial.</string>
 </resources>
