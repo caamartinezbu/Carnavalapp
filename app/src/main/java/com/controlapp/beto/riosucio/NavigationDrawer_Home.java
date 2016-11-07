@@ -168,7 +168,7 @@ private void inicializaAdaptador(){
                                 return true;
                             case R.id.item_navigation_drawer_cuadrillas:
                                 menuItem.setChecked(true);
-                                Toast.makeText(NavigationDrawer_Home.this, "cuadrillas " + menuItem.getTitle().toString(), Toast.LENGTH_SHORT).show();
+                                //Toast.makeText(NavigationDrawer_Home.this, "cuadrillas " + menuItem.getTitle().toString(), Toast.LENGTH_SHORT).show();
                                 DrawerLayout drawer1 = (DrawerLayout) findViewById(R.id.drawer_layout);
                                 drawer1.closeDrawer(GravityCompat.START);
                                 Intent intent = new Intent(NavigationDrawer_Home.this, Cuadrillas.class);
