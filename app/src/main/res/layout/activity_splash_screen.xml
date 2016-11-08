@@ -13,10 +13,10 @@
 
     <ImageView
         android:layout_width="200dp"
-        android:layout_height="150dp"
+        android:layout_height="225dp"
         android:id="@+id/Id_logocarnaval"
-        android:src="@drawable/logopequeno"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="140dp" />
+        android:src="@drawable/logo_12"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
 </RelativeLayout>
