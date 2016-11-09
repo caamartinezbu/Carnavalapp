@@ -62,6 +62,8 @@ public class NavigationDrawer_Home extends AppCompatActivity /*implements Naviga
       /*  navigationView.setNavigationItemSelectedListener(this);*/
 
         setupNavigationDrawerContent(navigationView);
+       //First start (Inbox Fragment)
+        setFragment(0);
 
     }
 
@@ -146,15 +148,21 @@ private void inicializaAdaptador(){
                     @Override
                     public boolean onNavigationItemSelected(MenuItem menuItem) {
                         switch (menuItem.getItemId()) {
-                            case R.id.item_navigation_drawer_himno:
+                            case R.id.item_navigation_drawer_panel:
                                 menuItem.setChecked(true);
                                 setFragment(0);
+                                DrawerLayout drawer4 = (DrawerLayout) findViewById(R.id.drawer_layout);
+                                drawer4.closeDrawer(GravityCompat.START);
+                                return true;
+                            case R.id.item_navigation_drawer_himno:
+                                menuItem.setChecked(true);
+                                setFragment(1);
                                 DrawerLayout drawer3 = (DrawerLayout) findViewById(R.id.drawer_layout);
                                 drawer3.closeDrawer(GravityCompat.START);
                                 return true;
                             case R.id.item_navigation_drawer_historia:
                                 menuItem.setChecked(true);
-                                setFragment(1);
+                                setFragment(2);
                                 DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
                                 drawer.closeDrawer(GravityCompat.START);
                                 return true;
@@ -190,11 +198,18 @@ private void inicializaAdaptador(){
             case 0:
                 fragmentManager = getSupportFragmentManager();
                 fragmentTransaction = fragmentManager.beginTransaction();
+                PanelFragment panelFragment = new PanelFragment();
+                fragmentTransaction.replace(R.id.fragment,panelFragment );
+                fragmentTransaction.commit();
+                break;
+            case 1:
+                fragmentManager = getSupportFragmentManager();
+                fragmentTransaction = fragmentManager.beginTransaction();
                 HimnoFragment himnoFragment = new HimnoFragment();
                 fragmentTransaction.replace(R.id.fragment,himnoFragment );
                 fragmentTransaction.commit();
                 break;
-            case 1:
+            case 2:
                 fragmentManager = getSupportFragmentManager();
                 fragmentTransaction = fragmentManager.beginTransaction();
                 HistoriaFragment historiaFragment = new HistoriaFragment();
