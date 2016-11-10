@@ -16,10 +16,9 @@
     <string name="action_settings">Settings</string>
 
 
-
     <!-- String del Himno del carnaval-->
     <string name="titilo_himno">LETRA HIMNO DEL CARNAVAL</string>
-    <string name="Primera_estrofa" >
+    <string name="Primera_estrofa">
         ¡Salve, salve, placer de la vida!
         ¡Salve, salve, sin par Carnaval!
         De Riosucio la tierra querida
@@ -76,6 +75,7 @@ eres timbre de gloria inmortal..\u266A
     tu has venido quizás de la Altura
     como prenda de don Celestial..\u266A
 </string>
+    <string name="title_activity_mapa_fragment">Map</string>
 
 
 </resources>
