@@ -21,6 +21,7 @@ public class MapaFragment extends Fragment implements OnMapReadyCallback {
     private GoogleMap mMap;
 
 
+
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
         // Inflate the layout for this fragment
