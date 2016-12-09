@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_width="match_parent"
+    android:background="#6c6b6b"
     android:layout_height="match_parent"
-    android:background="#6c6b6b">
+    android:orientation="vertical">
 
     <ImageView
         android:layout_width="match_parent"
@@ -14,7 +15,8 @@
 <LinearLayout
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:orientation="horizontal">
+    android:orientation="horizontal"
+    android:background="#2F373D">
 
     <ImageView
         android:layout_width="60dp"
@@ -36,7 +38,8 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:background="#384147">
 
         <ImageView
             android:layout_width="60dp"
@@ -47,7 +50,7 @@
             android:id="@+id/tveventos"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Eventos"
+            android:text="Programación"
 
             android:textSize="20dp"
             android:textColor="#ffffff"
@@ -58,7 +61,8 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:background="#424C51">
 
         <ImageView
             android:layout_width="60dp"

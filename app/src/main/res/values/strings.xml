@@ -16,7 +16,8 @@
     <string name="action_settings">Settings</string>
 
 
-    <!-- String del Himno del carnaval-->
+
+    <!--=========== String del Himno del carnaval==============-->
     <string name="titilo_himno">LETRA HIMNO DEL CARNAVAL</string>
     <string name="Primera_estrofa">
         ¡Salve, salve, placer de la vida!
@@ -75,7 +76,28 @@ eres timbre de gloria inmortal..\u266A
     tu has venido quizás de la Altura
     como prenda de don Celestial..\u266A
 </string>
+    <!--=========== /String del Himno del carnaval==============-->
+
+
     <string name="title_activity_mapa_fragment">Map</string>
+
+    <!--=========== String del historia del carnaval==============-->
+
+    <string name="titilo_historia">HISTORIA DE NUESTRO CARNAVAL</string>
+    <string name="titilo_Diablo">DIABLO DEL CARNAVAL</string>
+    <string name="parrafo_1">
+        Dos pueblos fundados entre los siglos XVI y XVII “Quiebralomo y la Montaña”, al disputarse el territorio que se extiende al pie del Cerro Ingrumá, se declararon mortal enemistad.  Los dos curas Párrocos, en histórica alianza logran unirlos fundando con ambos a Riosucio  en 1.819; de ahí el exclusivo diseño urbanístico basado en las dos plazas principales a solo una cuadra de distancia una de otra...\u266A
+    </string>
+
+    <string name="parrafo_2">
+        Se considera que el seis de enero de 1.847 los indígenas de la Montaña intervinieron por primera vez con sus ritos del aborigen culto a la tierra en la fiesta de los reyes magos venida de Quiebralomo; en esta se mezclaban desde antaño danzas y cantos de origen africano con teatro sacro español y formas coreográficas de ancestro europeo y surgieron entonces las “Diversiones Matachinescas” con leyes festivas que ordenaban la reconciliación de los antiguos rivales.
+    </string>
+
+    <string name="parrafo_3">
+        No es un Diablo religioso, ni tampoco es una fiesta anticristiana.  El Carnaval no toca la religiosidad de los hombres.  Es un estado anímico heredado de la tradición cultural aborigen y de la mezcla de culturas y razas que vivió la parte occidental de lo que hoy  se llama Caldas.
+    </string>
+
+    <!--=========== String del historia del carnaval==============-->
 
 
 </resources>

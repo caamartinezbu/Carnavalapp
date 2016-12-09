@@ -21,7 +21,7 @@ public class HistoriaFragment extends Fragment {
         // Inflate the layout for this fragment
         final View view = inflater.inflate(R.layout.historia_fragment, container, false);
 
-       /* ((NavigationDrawer_Home) getActivity()).getSupportActionBar().setTitle("Fragment Inbox");*/
+       /* ((NavigationDrawer_Home) getActivity()).getSupportActionBar().setTitle("Fragment Inbox");
 
         Button buttonChangeText = (Button) view.findViewById(R.id.buttonFragmentInbox);
 
@@ -36,7 +36,7 @@ public class HistoriaFragment extends Fragment {
 
             }
         });
-
+*/
         return view;
     }
 

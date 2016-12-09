@@ -3,14 +3,7 @@
     package="com.controlapp.beto.riosucio">
 
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-
-    <!--
-         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
-         Google Maps Android API v2, but you must specify either coarse or fine
-         location permissions for the 'MyLocation' functionality. 
-    -->
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
 
     <application
         android:allowBackup="true"
@@ -25,6 +18,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity
             android:name=".Mapas"
             android:label="@string/title_activity_cuadrillas"
@@ -32,11 +26,11 @@
         <activity
             android:name=".Cuadrillas"
             android:label="@string/title_activity_cuadrillas"
-            android:parentActivityName=".NavigationDrawer_Home"
-            android:theme="@style/AppTheme">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value=".NavigationDrawer_Home" />
+            android:theme="@style/AppTheme"
+            android:parentActivityName="com.controlapp.beto.riosucio.NavigationDrawer_Home">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".NavigationDrawer_Home" />
         </activity>
         <activity
             android:name=".Cardview"
@@ -45,30 +39,14 @@
         <activity
             android:name=".NavigationDrawer_Home"
             android:label="@string/title_activity_navigation_drawer__home"
-            android:theme="@style/AppTheme"></activity>
-        <!--
- ATTENTION: This was auto-generated to add Google Play services to your project for
-     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
-        -->
+            android:theme="@style/AppTheme">
+
+        </activity><!-- ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information. -->
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
 
-        <!--
-             The API key for Google Maps-based APIs is defined as a string resource.
-             (See the file "res/values/google_maps_api.xml").
-             Note that the API key is linked to the encryption key used to sign the APK.
-             You need a different API key for each encryption key, including the release key that is used to
-             sign the APK for publishing.
-             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
-        -->
-        <meta-data
-            android:name="com.google.android.geo.API_KEY"
-            android:value="@string/google_maps_key" />
-
-        <activity
-            android:name=".MapaFragment"
-            android:label="@string/title_activity_mapa_fragment"></activity>
     </application>
 
 </manifest>
