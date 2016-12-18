@@ -1,7 +1,7 @@
-#Wed Dec 07 13:52:00 COT 2016
-base.0=D\:\\Documents\\deveploment\\antes de mapas\\CarnavalDiablo\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_457a4773b5ba9aa00b7aa29d7fb99f4dcba1795b
-renamed.1=classes.dex
-renamed.0=classes2.dex
-file.1=D\:\\Documents\\deveploment\\antes de mapas\\CarnavalDiablo\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_746b41d90e70d455ae1716114579ad809d204af6\\classes.dex
-base.1=D\:\\Documents\\deveploment\\antes de mapas\\CarnavalDiablo\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_746b41d90e70d455ae1716114579ad809d204af6
-file.0=D\:\\Documents\\deveploment\\antes de mapas\\CarnavalDiablo\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_457a4773b5ba9aa00b7aa29d7fb99f4dcba1795b\\classes.dex
+#Sun Dec 18 12:59:30 COT 2016
+base.0=C\:\\Users\\Beto\\Desktop\\CarnavalRiosucioApp\\repositorio\\CarnavalDiablo\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_27dfcfd18765fd0d057801bd5f451a496adf4268
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=C\:\\Users\\Beto\\Desktop\\CarnavalRiosucioApp\\repositorio\\CarnavalDiablo\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_1db24f61b8c475f24861be9a9825dd0cfc8428d6\\classes.dex
+base.1=C\:\\Users\\Beto\\Desktop\\CarnavalRiosucioApp\\repositorio\\CarnavalDiablo\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_1db24f61b8c475f24861be9a9825dd0cfc8428d6
+file.0=C\:\\Users\\Beto\\Desktop\\CarnavalRiosucioApp\\repositorio\\CarnavalDiablo\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_27dfcfd18765fd0d057801bd5f451a496adf4268\\classes.dex

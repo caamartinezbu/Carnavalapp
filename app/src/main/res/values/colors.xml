@@ -9,8 +9,35 @@
     <color name="colo_fab4">#00BCD4</color>
 
 
-    <!--
-     <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>-->
+    <!-- Screens background color-->
+    <color name="bg_screen1">#D32F2F</color>
+    <color name="bg_screen2">#d28520</color>
+    <color name="bg_screen3">#3395ff</color>
+    <color name="bg_screen4">#333333</color>
+
+    <!-- dots inactive colors -->
+    <color name="dot_dark_screen1">#af1e08</color>
+    <color name="dot_dark_screen2">#a6650f</color>
+    <color name="dot_dark_screen3">#2278d4</color>
+    <color name="dot_dark_screen4">#544747</color>
+
+    <!-- dots active colors -->
+    <color name="dot_light_screen1">#f98da5</color>
+    <color name="dot_light_screen2">#dfa65b</color>
+    <color name="dot_light_screen3">#93c6fd</color>
+    <color name="dot_light_screen4">#7c7a7a</color>
+
+    <array name="array_dot_active">
+        <item>@color/dot_light_screen1</item>
+        <item>@color/dot_light_screen2</item>
+        <item>@color/dot_light_screen3</item>
+        <item>@color/dot_light_screen4</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/dot_dark_screen2</item>
+        <item>@color/dot_dark_screen3</item>
+        <item>@color/dot_dark_screen4</item>
+    </array>
 </resources>

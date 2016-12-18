@@ -45,8 +45,7 @@
         <activity
             android:name="com.controlapp.beto.riosucio.NavigationDrawer_Home"
             android:label="@string/title_activity_navigation_drawer__home"
-            android:theme="@style/AppTheme" >
-        </activity>
+            android:theme="@style/AppTheme" />
         <!--
  ATTENTION: This was auto-generated to add Google Play services to your project for
      App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
@@ -54,6 +53,8 @@
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
+
+        <activity android:name="com.controlapp.beto.riosucio.WelcomeActivity" />
     </application>
 
 </manifest>

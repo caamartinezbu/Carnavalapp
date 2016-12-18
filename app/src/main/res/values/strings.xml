@@ -16,7 +16,6 @@
     <string name="action_settings">Settings</string>
 
 
-
     <!--=========== String del Himno del carnaval==============-->
     <string name="titilo_himno">LETRA HIMNO DEL CARNAVAL</string>
     <string name="Primera_estrofa">
@@ -98,6 +97,28 @@ eres timbre de gloria inmortal..\u266A
     </string>
 
     <!--=========== String del historia del carnaval==============-->
+    <!--::::::::::::::::: String slider tutorial:::::::::::::::::::-->
+    <string name="next">SIGUIENTE</string>
+    <string name="skip">OMITIR</string>
+    <string name="start">LO TENGO</string>
+
+    <string name="slide_1_title">Cachos Del Diablo!</string>
+    <string name="slide_1_desc">!Sabias que¡  El Diablo del carnaval tiene Cachos de toro!. Porque los negros utilizaban un animal de poder, para matar a la serpiente de la sabiduría!</string>
+
+
+    <string name="slide_2_title">Garras Del Diablo!</string>
+    <string name="slide_2_desc">Sabias Que!. El diablo del Carnaval tiene garras y rasgos felinos del jaguar porque los indigenas rendian tributo al dios Jaguar</string>
+
+    <string name="slide_3_title">Alas Del Diablo!</string>
+    <string name="slide_3_desc">!Sabias que¡  El Diablo del carnaval tiene alas de murcielago de 5 puntas! </string>
+
+    <string name="slide_4_title">Cuerpo Del Diablo!</string>
+    <string name="slide_4_desc">!Sabias que¡  El Diablo del carnaval tiene la contextura atletica del negro!</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+
+    <!--::::::::::::::::: /String slider tutorial:::::::::::::::::::-->
 
 
 </resources>

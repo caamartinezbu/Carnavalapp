@@ -182,6 +182,13 @@ private void inicializaAdaptador(){
                                 Intent intent = new Intent(NavigationDrawer_Home.this, Cuadrillas.class);
                                 startActivity(intent);
                                 return true;
+                            case R.id.item_navigation_drawer_tutorial:
+                                menuItem.setChecked(true);
+                                DrawerLayout drawer5 = (DrawerLayout) findViewById(R.id.drawer_layout);
+                                drawer5.closeDrawer(GravityCompat.START);
+                                Intent intent5 = new Intent(NavigationDrawer_Home.this, WelcomeActivity.class);
+                                startActivity(intent5);
+                                return true;
 
                         }
 
