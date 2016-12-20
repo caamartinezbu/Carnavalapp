@@ -188,6 +188,7 @@ private void inicializaAdaptador(){
                                 drawer5.closeDrawer(GravityCompat.START);
                                 Intent intent5 = new Intent(NavigationDrawer_Home.this, WelcomeActivity.class);
                                 startActivity(intent5);
+                                finish();
                                 return true;
 
                         }

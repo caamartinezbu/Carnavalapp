@@ -6,18 +6,18 @@
                 "to": {
                     "startLine": 2,
                     "startColumn": 4,
-                    "startOffset": 105,
+                    "startOffset": 55,
                     "endColumn": 112,
-                    "endOffset": 213
+                    "endOffset": 163
                 },
                 "from": {
-                    "file": "C:\\Users\\Beto\\Desktop\\CarnavalRiosucioApp\\repositorio\\CarnavalDiablo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\values-mn-rMN\\values-mn-rMN.xml",
+                    "file": "C:\\Users\\Beto\\Desktop\\CarnavalRiosucioApp\\repositorio\\CarnavalDiablo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-mn-rMN\\values-mn-rMN.xml",
                     "position": {
-                        "startLine": 4,
+                        "startLine": 2,
                         "startColumn": 4,
-                        "startOffset": 280,
+                        "startOffset": 55,
                         "endColumn": 112,
-                        "endOffset": 388
+                        "endOffset": 163
                     }
                 }
             },
@@ -25,18 +25,18 @@
                 "to": {
                     "startLine": 3,
                     "startColumn": 4,
-                    "startOffset": 218,
+                    "startOffset": 168,
                     "endColumn": 107,
-                    "endOffset": 321
+                    "endOffset": 271
                 },
                 "from": {
-                    "file": "C:\\Users\\Beto\\Desktop\\CarnavalRiosucioApp\\repositorio\\CarnavalDiablo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\values-mn-rMN\\values-mn-rMN.xml",
+                    "file": "C:\\Users\\Beto\\Desktop\\CarnavalRiosucioApp\\repositorio\\CarnavalDiablo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-mn-rMN\\values-mn-rMN.xml",
                     "position": {
-                        "startLine": 5,
+                        "startLine": 3,
                         "startColumn": 4,
-                        "startOffset": 393,
+                        "startOffset": 168,
                         "endColumn": 107,
-                        "endOffset": 496
+                        "endOffset": 271
                     }
                 }
             },
@@ -44,18 +44,18 @@
                 "to": {
                     "startLine": 4,
                     "startColumn": 4,
-                    "startOffset": 326,
+                    "startOffset": 276,
                     "endColumn": 122,
-                    "endOffset": 444
+                    "endOffset": 394
                 },
                 "from": {
-                    "file": "C:\\Users\\Beto\\Desktop\\CarnavalRiosucioApp\\repositorio\\CarnavalDiablo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\values-mn-rMN\\values-mn-rMN.xml",
+                    "file": "C:\\Users\\Beto\\Desktop\\CarnavalRiosucioApp\\repositorio\\CarnavalDiablo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-mn-rMN\\values-mn-rMN.xml",
                     "position": {
-                        "startLine": 6,
+                        "startLine": 4,
                         "startColumn": 4,
-                        "startOffset": 501,
+                        "startOffset": 276,
                         "endColumn": 122,
-                        "endOffset": 619
+                        "endOffset": 394
                     }
                 }
             },
@@ -63,18 +63,18 @@
                 "to": {
                     "startLine": 5,
                     "startColumn": 4,
-                    "startOffset": 449,
+                    "startOffset": 399,
                     "endColumn": 99,
-                    "endOffset": 544
+                    "endOffset": 494
                 },
                 "from": {
-                    "file": "C:\\Users\\Beto\\Desktop\\CarnavalRiosucioApp\\repositorio\\CarnavalDiablo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\values-mn-rMN\\values-mn-rMN.xml",
+                    "file": "C:\\Users\\Beto\\Desktop\\CarnavalRiosucioApp\\repositorio\\CarnavalDiablo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-mn-rMN\\values-mn-rMN.xml",
                     "position": {
-                        "startLine": 7,
+                        "startLine": 5,
                         "startColumn": 4,
-                        "startOffset": 624,
+                        "startOffset": 399,
                         "endColumn": 99,
-                        "endOffset": 719
+                        "endOffset": 494
                     }
                 }
             },
@@ -82,18 +82,18 @@
                 "to": {
                     "startLine": 6,
                     "startColumn": 4,
-                    "startOffset": 549,
+                    "startOffset": 499,
                     "endColumn": 112,
-                    "endOffset": 657
+                    "endOffset": 607
                 },
                 "from": {
-                    "file": "C:\\Users\\Beto\\Desktop\\CarnavalRiosucioApp\\repositorio\\CarnavalDiablo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\values-mn-rMN\\values-mn-rMN.xml",
+                    "file": "C:\\Users\\Beto\\Desktop\\CarnavalRiosucioApp\\repositorio\\CarnavalDiablo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-mn-rMN\\values-mn-rMN.xml",
                     "position": {
-                        "startLine": 8,
+                        "startLine": 6,
                         "startColumn": 4,
-                        "startOffset": 724,
+                        "startOffset": 499,
                         "endColumn": 112,
-                        "endOffset": 832
+                        "endOffset": 607
                     }
                 }
             },
@@ -101,18 +101,18 @@
                 "to": {
                     "startLine": 7,
                     "startColumn": 4,
-                    "startOffset": 662,
+                    "startOffset": 612,
                     "endColumn": 86,
-                    "endOffset": 744
+                    "endOffset": 694
                 },
                 "from": {
-                    "file": "C:\\Users\\Beto\\Desktop\\CarnavalRiosucioApp\\repositorio\\CarnavalDiablo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\values-mn-rMN\\values-mn-rMN.xml",
+                    "file": "C:\\Users\\Beto\\Desktop\\CarnavalRiosucioApp\\repositorio\\CarnavalDiablo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-mn-rMN\\values-mn-rMN.xml",
                     "position": {
-                        "startLine": 9,
+                        "startLine": 7,
                         "startColumn": 4,
-                        "startOffset": 837,
+                        "startOffset": 612,
                         "endColumn": 86,
-                        "endOffset": 919
+                        "endOffset": 694
                     }
                 }
             },
@@ -120,18 +120,18 @@
                 "to": {
                     "startLine": 8,
                     "startColumn": 4,
-                    "startOffset": 749,
+                    "startOffset": 699,
                     "endColumn": 105,
-                    "endOffset": 850
+                    "endOffset": 800
                 },
                 "from": {
-                    "file": "C:\\Users\\Beto\\Desktop\\CarnavalRiosucioApp\\repositorio\\CarnavalDiablo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\values-mn-rMN\\values-mn-rMN.xml",
+                    "file": "C:\\Users\\Beto\\Desktop\\CarnavalRiosucioApp\\repositorio\\CarnavalDiablo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-mn-rMN\\values-mn-rMN.xml",
                     "position": {
-                        "startLine": 10,
+                        "startLine": 8,
                         "startColumn": 4,
-                        "startOffset": 924,
+                        "startOffset": 699,
                         "endColumn": 105,
-                        "endOffset": 1025
+                        "endOffset": 800
                     }
                 }
             },
@@ -139,18 +139,18 @@
                 "to": {
                     "startLine": 9,
                     "startColumn": 4,
-                    "startOffset": 855,
+                    "startOffset": 805,
                     "endColumn": 111,
-                    "endOffset": 962
+                    "endOffset": 912
                 },
                 "from": {
-                    "file": "C:\\Users\\Beto\\Desktop\\CarnavalRiosucioApp\\repositorio\\CarnavalDiablo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\values-mn-rMN\\values-mn-rMN.xml",
+                    "file": "C:\\Users\\Beto\\Desktop\\CarnavalRiosucioApp\\repositorio\\CarnavalDiablo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-mn-rMN\\values-mn-rMN.xml",
                     "position": {
-                        "startLine": 11,
+                        "startLine": 9,
                         "startColumn": 4,
-                        "startOffset": 1030,
+                        "startOffset": 805,
                         "endColumn": 111,
-                        "endOffset": 1137
+                        "endOffset": 912
                     }
                 }
             },
@@ -158,18 +158,18 @@
                 "to": {
                     "startLine": 10,
                     "startColumn": 4,
-                    "startOffset": 967,
+                    "startOffset": 917,
                     "endColumn": 81,
-                    "endOffset": 1044
+                    "endOffset": 994
                 },
                 "from": {
-                    "file": "C:\\Users\\Beto\\Desktop\\CarnavalRiosucioApp\\repositorio\\CarnavalDiablo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\values-mn-rMN\\values-mn-rMN.xml",
+                    "file": "C:\\Users\\Beto\\Desktop\\CarnavalRiosucioApp\\repositorio\\CarnavalDiablo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-mn-rMN\\values-mn-rMN.xml",
                     "position": {
-                        "startLine": 12,
+                        "startLine": 10,
                         "startColumn": 4,
-                        "startOffset": 1142,
+                        "startOffset": 917,
                         "endColumn": 81,
-                        "endOffset": 1219
+                        "endOffset": 994
                     }
                 }
             },
@@ -177,18 +177,18 @@
                 "to": {
                     "startLine": 11,
                     "startColumn": 4,
-                    "startOffset": 1049,
-                    "endColumn": 108,
-                    "endOffset": 1153
+                    "startOffset": 999,
+                    "endColumn": 81,
+                    "endOffset": 1076
                 },
                 "from": {
-                    "file": "C:\\Users\\Beto\\Desktop\\CarnavalRiosucioApp\\repositorio\\CarnavalDiablo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\values-mn-rMN\\values-mn-rMN.xml",
+                    "file": "C:\\Users\\Beto\\Desktop\\CarnavalRiosucioApp\\repositorio\\CarnavalDiablo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-mn-rMN\\values-mn-rMN.xml",
                     "position": {
-                        "startLine": 13,
+                        "startLine": 11,
                         "startColumn": 4,
-                        "startOffset": 1224,
-                        "endColumn": 108,
-                        "endOffset": 1328
+                        "startOffset": 999,
+                        "endColumn": 81,
+                        "endOffset": 1076
                     }
                 }
             },
@@ -196,18 +196,18 @@
                 "to": {
                     "startLine": 12,
                     "startColumn": 4,
-                    "startOffset": 1158,
-                    "endColumn": 103,
-                    "endOffset": 1257
+                    "startOffset": 1081,
+                    "endColumn": 81,
+                    "endOffset": 1158
                 },
                 "from": {
-                    "file": "C:\\Users\\Beto\\Desktop\\CarnavalRiosucioApp\\repositorio\\CarnavalDiablo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\values-mn-rMN\\values-mn-rMN.xml",
+                    "file": "C:\\Users\\Beto\\Desktop\\CarnavalRiosucioApp\\repositorio\\CarnavalDiablo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-mn-rMN\\values-mn-rMN.xml",
                     "position": {
-                        "startLine": 14,
+                        "startLine": 12,
                         "startColumn": 4,
-                        "startOffset": 1333,
-                        "endColumn": 103,
-                        "endOffset": 1432
+                        "startOffset": 1081,
+                        "endColumn": 81,
+                        "endOffset": 1158
                     }
                 }
             },
@@ -215,18 +215,18 @@
                 "to": {
                     "startLine": 13,
                     "startColumn": 4,
-                    "startOffset": 1262,
-                    "endColumn": 96,
-                    "endOffset": 1354
+                    "startOffset": 1163,
+                    "endColumn": 108,
+                    "endOffset": 1267
                 },
                 "from": {
-                    "file": "C:\\Users\\Beto\\Desktop\\CarnavalRiosucioApp\\repositorio\\CarnavalDiablo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\values-mn-rMN\\values-mn-rMN.xml",
+                    "file": "C:\\Users\\Beto\\Desktop\\CarnavalRiosucioApp\\repositorio\\CarnavalDiablo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-mn-rMN\\values-mn-rMN.xml",
                     "position": {
-                        "startLine": 15,
+                        "startLine": 13,
                         "startColumn": 4,
-                        "startOffset": 1437,
-                        "endColumn": 96,
-                        "endOffset": 1529
+                        "startOffset": 1163,
+                        "endColumn": 108,
+                        "endOffset": 1267
                     }
                 }
             },
@@ -234,18 +234,18 @@
                 "to": {
                     "startLine": 14,
                     "startColumn": 4,
-                    "startOffset": 1359,
-                    "endColumn": 107,
-                    "endOffset": 1462
+                    "startOffset": 1272,
+                    "endColumn": 103,
+                    "endOffset": 1371
                 },
                 "from": {
-                    "file": "C:\\Users\\Beto\\Desktop\\CarnavalRiosucioApp\\repositorio\\CarnavalDiablo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\values-mn-rMN\\values-mn-rMN.xml",
+                    "file": "C:\\Users\\Beto\\Desktop\\CarnavalRiosucioApp\\repositorio\\CarnavalDiablo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-mn-rMN\\values-mn-rMN.xml",
                     "position": {
-                        "startLine": 16,
+                        "startLine": 14,
                         "startColumn": 4,
-                        "startOffset": 1534,
-                        "endColumn": 107,
-                        "endOffset": 1637
+                        "startOffset": 1272,
+                        "endColumn": 103,
+                        "endOffset": 1371
                     }
                 }
             },
@@ -253,18 +253,18 @@
                 "to": {
                     "startLine": 15,
                     "startColumn": 4,
-                    "startOffset": 1467,
-                    "endColumn": 100,
-                    "endOffset": 1563
+                    "startOffset": 1376,
+                    "endColumn": 96,
+                    "endOffset": 1468
                 },
                 "from": {
-                    "file": "C:\\Users\\Beto\\Desktop\\CarnavalRiosucioApp\\repositorio\\CarnavalDiablo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\values-mn-rMN\\values-mn-rMN.xml",
+                    "file": "C:\\Users\\Beto\\Desktop\\CarnavalRiosucioApp\\repositorio\\CarnavalDiablo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-mn-rMN\\values-mn-rMN.xml",
                     "position": {
-                        "startLine": 17,
+                        "startLine": 15,
                         "startColumn": 4,
-                        "startOffset": 1642,
-                        "endColumn": 100,
-                        "endOffset": 1738
+                        "startOffset": 1376,
+                        "endColumn": 96,
+                        "endOffset": 1468
                     }
                 }
             },
@@ -272,18 +272,18 @@
                 "to": {
                     "startLine": 16,
                     "startColumn": 4,
-                    "startOffset": 1568,
-                    "endColumn": 102,
-                    "endOffset": 1666
+                    "startOffset": 1473,
+                    "endColumn": 107,
+                    "endOffset": 1576
                 },
                 "from": {
-                    "file": "C:\\Users\\Beto\\Desktop\\CarnavalRiosucioApp\\repositorio\\CarnavalDiablo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\values-mn-rMN\\values-mn-rMN.xml",
+                    "file": "C:\\Users\\Beto\\Desktop\\CarnavalRiosucioApp\\repositorio\\CarnavalDiablo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-mn-rMN\\values-mn-rMN.xml",
                     "position": {
-                        "startLine": 18,
+                        "startLine": 16,
                         "startColumn": 4,
-                        "startOffset": 1743,
-                        "endColumn": 102,
-                        "endOffset": 1841
+                        "startOffset": 1473,
+                        "endColumn": 107,
+                        "endOffset": 1576
                     }
                 }
             },
@@ -291,18 +291,18 @@
                 "to": {
                     "startLine": 17,
                     "startColumn": 4,
-                    "startOffset": 1671,
-                    "endColumn": 121,
-                    "endOffset": 1788
+                    "startOffset": 1581,
+                    "endColumn": 100,
+                    "endOffset": 1677
                 },
                 "from": {
-                    "file": "C:\\Users\\Beto\\Desktop\\CarnavalRiosucioApp\\repositorio\\CarnavalDiablo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\values-mn-rMN\\values-mn-rMN.xml",
+                    "file": "C:\\Users\\Beto\\Desktop\\CarnavalRiosucioApp\\repositorio\\CarnavalDiablo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-mn-rMN\\values-mn-rMN.xml",
                     "position": {
-                        "startLine": 19,
+                        "startLine": 17,
                         "startColumn": 4,
-                        "startOffset": 1846,
-                        "endColumn": 121,
-                        "endOffset": 1963
+                        "startOffset": 1581,
+                        "endColumn": 100,
+                        "endOffset": 1677
                     }
                 }
             },
@@ -310,18 +310,18 @@
                 "to": {
                     "startLine": 18,
                     "startColumn": 4,
-                    "startOffset": 1793,
-                    "endColumn": 96,
-                    "endOffset": 1885
+                    "startOffset": 1682,
+                    "endColumn": 102,
+                    "endOffset": 1780
                 },
                 "from": {
-                    "file": "C:\\Users\\Beto\\Desktop\\CarnavalRiosucioApp\\repositorio\\CarnavalDiablo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\values-mn-rMN\\values-mn-rMN.xml",
+                    "file": "C:\\Users\\Beto\\Desktop\\CarnavalRiosucioApp\\repositorio\\CarnavalDiablo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-mn-rMN\\values-mn-rMN.xml",
                     "position": {
-                        "startLine": 20,
+                        "startLine": 18,
                         "startColumn": 4,
-                        "startOffset": 1968,
-                        "endColumn": 96,
-                        "endOffset": 2060
+                        "startOffset": 1682,
+                        "endColumn": 102,
+                        "endOffset": 1780
                     }
                 }
             },
@@ -329,18 +329,18 @@
                 "to": {
                     "startLine": 19,
                     "startColumn": 4,
-                    "startOffset": 1890,
-                    "endColumn": 192,
-                    "endOffset": 2078
+                    "startOffset": 1785,
+                    "endColumn": 121,
+                    "endOffset": 1902
                 },
                 "from": {
-                    "file": "C:\\Users\\Beto\\Desktop\\CarnavalRiosucioApp\\repositorio\\CarnavalDiablo\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-mn-rMN\\common_strings.xml",
+                    "file": "C:\\Users\\Beto\\Desktop\\CarnavalRiosucioApp\\repositorio\\CarnavalDiablo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-mn-rMN\\values-mn-rMN.xml",
                     "position": {
-                        "startLine": 5,
+                        "startLine": 19,
                         "startColumn": 4,
-                        "startOffset": 486,
-                        "endColumn": 196,
-                        "endOffset": 678
+                        "startOffset": 1785,
+                        "endColumn": 121,
+                        "endOffset": 1902
                     }
                 }
             },
@@ -348,18 +348,18 @@
                 "to": {
                     "startLine": 20,
                     "startColumn": 4,
-                    "startOffset": 2083,
-                    "endColumn": 181,
-                    "endOffset": 2260
+                    "startOffset": 1907,
+                    "endColumn": 96,
+                    "endOffset": 1999
                 },
                 "from": {
-                    "file": "C:\\Users\\Beto\\Desktop\\CarnavalRiosucioApp\\repositorio\\CarnavalDiablo\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-mn-rMN\\common_strings.xml",
+                    "file": "C:\\Users\\Beto\\Desktop\\CarnavalRiosucioApp\\repositorio\\CarnavalDiablo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-mn-rMN\\values-mn-rMN.xml",
                     "position": {
-                        "startLine": 18,
+                        "startLine": 20,
                         "startColumn": 4,
-                        "startOffset": 2695,
-                        "endColumn": 185,
-                        "endOffset": 2876
+                        "startOffset": 1907,
+                        "endColumn": 96,
+                        "endOffset": 1999
                     }
                 }
             },
@@ -367,550 +367,18 @@
                 "to": {
                     "startLine": 21,
                     "startColumn": 4,
-                    "startOffset": 2265,
-                    "endColumn": 118,
-                    "endOffset": 2379
-                },
-                "from": {
-                    "file": "C:\\Users\\Beto\\Desktop\\CarnavalRiosucioApp\\repositorio\\CarnavalDiablo\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-mn-rMN\\common_strings.xml",
-                    "position": {
-                        "startLine": 16,
-                        "startColumn": 4,
-                        "startOffset": 2373,
-                        "endColumn": 118,
-                        "endOffset": 2487
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 22,
-                    "startColumn": 4,
-                    "startOffset": 2384,
-                    "endColumn": 293,
-                    "endOffset": 2673
-                },
-                "from": {
-                    "file": "C:\\Users\\Beto\\Desktop\\CarnavalRiosucioApp\\repositorio\\CarnavalDiablo\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-mn-rMN\\common_strings.xml",
-                    "position": {
-                        "startLine": 30,
-                        "startColumn": 4,
-                        "startOffset": 4603,
-                        "endColumn": 297,
-                        "endOffset": 4896
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 23,
-                    "startColumn": 4,
-                    "startOffset": 2678,
-                    "endColumn": 134,
-                    "endOffset": 2808
-                },
-                "from": {
-                    "file": "C:\\Users\\Beto\\Desktop\\CarnavalRiosucioApp\\repositorio\\CarnavalDiablo\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-mn-rMN\\common_strings.xml",
-                    "position": {
-                        "startLine": 14,
-                        "startColumn": 4,
-                        "startOffset": 2107,
-                        "endColumn": 134,
-                        "endOffset": 2237
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 24,
-                    "startColumn": 4,
-                    "startOffset": 2813,
-                    "endColumn": 201,
-                    "endOffset": 3010
-                },
-                "from": {
-                    "file": "C:\\Users\\Beto\\Desktop\\CarnavalRiosucioApp\\repositorio\\CarnavalDiablo\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-mn-rMN\\common_strings.xml",
-                    "position": {
-                        "startLine": 13,
-                        "startColumn": 4,
-                        "startOffset": 1901,
-                        "endColumn": 205,
-                        "endOffset": 2102
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 25,
-                    "startColumn": 4,
-                    "startOffset": 3015,
-                    "endColumn": 132,
-                    "endOffset": 3143
-                },
-                "from": {
-                    "file": "C:\\Users\\Beto\\Desktop\\CarnavalRiosucioApp\\repositorio\\CarnavalDiablo\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-mn-rMN\\common_strings.xml",
-                    "position": {
-                        "startLine": 12,
-                        "startColumn": 4,
-                        "startOffset": 1768,
-                        "endColumn": 132,
-                        "endOffset": 1896
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 26,
-                    "startColumn": 4,
-                    "startOffset": 3148,
-                    "endColumn": 171,
-                    "endOffset": 3315
-                },
-                "from": {
-                    "file": "C:\\Users\\Beto\\Desktop\\CarnavalRiosucioApp\\repositorio\\CarnavalDiablo\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-mn-rMN\\common_strings.xml",
-                    "position": {
-                        "startLine": 7,
-                        "startColumn": 4,
-                        "startOffset": 856,
-                        "endColumn": 175,
-                        "endOffset": 1027
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 27,
-                    "startColumn": 4,
-                    "startOffset": 3320,
-                    "endColumn": 127,
-                    "endOffset": 3443
-                },
-                "from": {
-                    "file": "C:\\Users\\Beto\\Desktop\\CarnavalRiosucioApp\\repositorio\\CarnavalDiablo\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-mn-rMN\\common_strings.xml",
-                    "position": {
-                        "startLine": 11,
-                        "startColumn": 4,
-                        "startOffset": 1640,
-                        "endColumn": 127,
-                        "endOffset": 1763
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 28,
-                    "startColumn": 4,
-                    "startOffset": 3448,
-                    "endColumn": 235,
-                    "endOffset": 3679
-                },
-                "from": {
-                    "file": "C:\\Users\\Beto\\Desktop\\CarnavalRiosucioApp\\repositorio\\CarnavalDiablo\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-mn-rMN\\common_strings.xml",
-                    "position": {
-                        "startLine": 9,
-                        "startColumn": 4,
-                        "startOffset": 1157,
-                        "endColumn": 239,
-                        "endOffset": 1392
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 29,
-                    "startColumn": 4,
-                    "startOffset": 3684,
-                    "endColumn": 238,
-                    "endOffset": 3918
-                },
-                "from": {
-                    "file": "C:\\Users\\Beto\\Desktop\\CarnavalRiosucioApp\\repositorio\\CarnavalDiablo\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-mn-rMN\\common_strings.xml",
-                    "position": {
-                        "startLine": 10,
-                        "startColumn": 4,
-                        "startOffset": 1397,
-                        "endColumn": 242,
-                        "endOffset": 1635
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 30,
-                    "startColumn": 4,
-                    "startOffset": 3923,
-                    "endColumn": 124,
-                    "endOffset": 4043
-                },
-                "from": {
-                    "file": "C:\\Users\\Beto\\Desktop\\CarnavalRiosucioApp\\repositorio\\CarnavalDiablo\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-mn-rMN\\common_strings.xml",
-                    "position": {
-                        "startLine": 8,
-                        "startColumn": 4,
-                        "startOffset": 1032,
-                        "endColumn": 124,
-                        "endOffset": 1152
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 31,
-                    "startColumn": 4,
-                    "startOffset": 4048,
-                    "endColumn": 177,
-                    "endOffset": 4221
-                },
-                "from": {
-                    "file": "C:\\Users\\Beto\\Desktop\\CarnavalRiosucioApp\\repositorio\\CarnavalDiablo\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-mn-rMN\\common_strings.xml",
-                    "position": {
-                        "startLine": 24,
-                        "startColumn": 4,
-                        "startOffset": 3660,
-                        "endColumn": 177,
-                        "endOffset": 3833
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 32,
-                    "startColumn": 4,
-                    "startOffset": 4226,
-                    "endColumn": 120,
-                    "endOffset": 4342
-                },
-                "from": {
-                    "file": "C:\\Users\\Beto\\Desktop\\CarnavalRiosucioApp\\repositorio\\CarnavalDiablo\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-mn-rMN\\common_strings.xml",
-                    "position": {
-                        "startLine": 23,
-                        "startColumn": 4,
-                        "startOffset": 3539,
-                        "endColumn": 120,
-                        "endOffset": 3655
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 33,
-                    "startColumn": 4,
-                    "startOffset": 4347,
-                    "endColumn": 172,
-                    "endOffset": 4515
-                },
-                "from": {
-                    "file": "C:\\Users\\Beto\\Desktop\\CarnavalRiosucioApp\\repositorio\\CarnavalDiablo\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-mn-rMN\\common_strings.xml",
-                    "position": {
-                        "startLine": 6,
-                        "startColumn": 4,
-                        "startOffset": 683,
-                        "endColumn": 172,
-                        "endOffset": 851
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 34,
-                    "startColumn": 4,
-                    "startOffset": 4520,
-                    "endColumn": 172,
-                    "endOffset": 4688
-                },
-                "from": {
-                    "file": "C:\\Users\\Beto\\Desktop\\CarnavalRiosucioApp\\repositorio\\CarnavalDiablo\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-mn-rMN\\common_strings.xml",
-                    "position": {
-                        "startLine": 22,
-                        "startColumn": 4,
-                        "startOffset": 3366,
-                        "endColumn": 172,
-                        "endOffset": 3534
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 35,
-                    "startColumn": 4,
-                    "startOffset": 4693,
-                    "endColumn": 121,
-                    "endOffset": 4810
-                },
-                "from": {
-                    "file": "C:\\Users\\Beto\\Desktop\\CarnavalRiosucioApp\\repositorio\\CarnavalDiablo\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-mn-rMN\\common_strings.xml",
-                    "position": {
-                        "startLine": 21,
-                        "startColumn": 4,
-                        "startOffset": 3244,
-                        "endColumn": 121,
-                        "endOffset": 3361
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 36,
-                    "startColumn": 4,
-                    "startOffset": 4815,
-                    "endColumn": 175,
-                    "endOffset": 4986
-                },
-                "from": {
-                    "file": "C:\\Users\\Beto\\Desktop\\CarnavalRiosucioApp\\repositorio\\CarnavalDiablo\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-mn-rMN\\common_strings.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 310,
-                        "endColumn": 175,
-                        "endOffset": 481
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 37,
-                    "startColumn": 4,
-                    "startOffset": 4991,
-                    "endColumn": 139,
-                    "endOffset": 5126
-                },
-                "from": {
-                    "file": "C:\\Users\\Beto\\Desktop\\CarnavalRiosucioApp\\repositorio\\CarnavalDiablo\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-mn-rMN\\common_strings.xml",
-                    "position": {
-                        "startLine": 3,
-                        "startColumn": 4,
-                        "startOffset": 170,
-                        "endColumn": 139,
-                        "endOffset": 305
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 38,
-                    "startColumn": 4,
-                    "startOffset": 5131,
-                    "endColumn": 156,
-                    "endOffset": 5283
-                },
-                "from": {
-                    "file": "C:\\Users\\Beto\\Desktop\\CarnavalRiosucioApp\\repositorio\\CarnavalDiablo\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-mn-rMN\\common_strings.xml",
-                    "position": {
-                        "startLine": 32,
-                        "startColumn": 4,
-                        "startOffset": 5047,
-                        "endColumn": 156,
-                        "endOffset": 5199
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 39,
-                    "startColumn": 4,
-                    "startOffset": 5288,
-                    "endColumn": 145,
-                    "endOffset": 5429
-                },
-                "from": {
-                    "file": "C:\\Users\\Beto\\Desktop\\CarnavalRiosucioApp\\repositorio\\CarnavalDiablo\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-mn-rMN\\common_strings.xml",
-                    "position": {
-                        "startLine": 31,
-                        "startColumn": 4,
-                        "startOffset": 4901,
-                        "endColumn": 145,
-                        "endOffset": 5042
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 40,
-                    "startColumn": 4,
-                    "startOffset": 5434,
-                    "endColumn": 153,
-                    "endOffset": 5583
-                },
-                "from": {
-                    "file": "C:\\Users\\Beto\\Desktop\\CarnavalRiosucioApp\\repositorio\\CarnavalDiablo\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-mn-rMN\\common_strings.xml",
-                    "position": {
-                        "startLine": 25,
-                        "startColumn": 4,
-                        "startOffset": 3838,
-                        "endColumn": 153,
-                        "endOffset": 3987
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 41,
-                    "startColumn": 4,
-                    "startOffset": 5588,
-                    "endColumn": 277,
-                    "endOffset": 5861
-                },
-                "from": {
-                    "file": "C:\\Users\\Beto\\Desktop\\CarnavalRiosucioApp\\repositorio\\CarnavalDiablo\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-mn-rMN\\common_strings.xml",
-                    "position": {
-                        "startLine": 27,
-                        "startColumn": 4,
-                        "startOffset": 4118,
-                        "endColumn": 281,
-                        "endOffset": 4395
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 42,
-                    "startColumn": 4,
-                    "startOffset": 5866,
-                    "endColumn": 125,
-                    "endOffset": 5987
-                },
-                "from": {
-                    "file": "C:\\Users\\Beto\\Desktop\\CarnavalRiosucioApp\\repositorio\\CarnavalDiablo\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-mn-rMN\\common_strings.xml",
-                    "position": {
-                        "startLine": 26,
-                        "startColumn": 4,
-                        "startOffset": 3992,
-                        "endColumn": 125,
-                        "endOffset": 4113
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 43,
-                    "startColumn": 4,
-                    "startOffset": 5992,
-                    "endColumn": 108,
-                    "endOffset": 6096
-                },
-                "from": {
-                    "file": "C:\\Users\\Beto\\Desktop\\CarnavalRiosucioApp\\repositorio\\CarnavalDiablo\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-mn-rMN\\common_strings.xml",
-                    "position": {
-                        "startLine": 28,
-                        "startColumn": 4,
-                        "startOffset": 4400,
-                        "endColumn": 108,
-                        "endOffset": 4504
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 44,
-                    "startColumn": 4,
-                    "startOffset": 6101,
-                    "endColumn": 198,
-                    "endOffset": 6295
-                },
-                "from": {
-                    "file": "C:\\Users\\Beto\\Desktop\\CarnavalRiosucioApp\\repositorio\\CarnavalDiablo\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-mn-rMN\\common_strings.xml",
-                    "position": {
-                        "startLine": 17,
-                        "startColumn": 4,
-                        "startOffset": 2492,
-                        "endColumn": 202,
-                        "endOffset": 2690
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 45,
-                    "startColumn": 4,
-                    "startOffset": 6300,
-                    "endColumn": 130,
-                    "endOffset": 6426
-                },
-                "from": {
-                    "file": "C:\\Users\\Beto\\Desktop\\CarnavalRiosucioApp\\repositorio\\CarnavalDiablo\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-mn-rMN\\common_strings.xml",
-                    "position": {
-                        "startLine": 15,
-                        "startColumn": 4,
-                        "startOffset": 2242,
-                        "endColumn": 130,
-                        "endOffset": 2368
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 46,
-                    "startColumn": 4,
-                    "startOffset": 6431,
-                    "endColumn": 214,
-                    "endOffset": 6641
-                },
-                "from": {
-                    "file": "C:\\Users\\Beto\\Desktop\\CarnavalRiosucioApp\\repositorio\\CarnavalDiablo\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-mn-rMN\\common_strings.xml",
-                    "position": {
-                        "startLine": 20,
-                        "startColumn": 4,
-                        "startOffset": 3025,
-                        "endColumn": 218,
-                        "endOffset": 3239
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 47,
-                    "startColumn": 4,
-                    "startOffset": 6646,
-                    "endColumn": 143,
-                    "endOffset": 6785
-                },
-                "from": {
-                    "file": "C:\\Users\\Beto\\Desktop\\CarnavalRiosucioApp\\repositorio\\CarnavalDiablo\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-mn-rMN\\common_strings.xml",
-                    "position": {
-                        "startLine": 19,
-                        "startColumn": 4,
-                        "startOffset": 2881,
-                        "endColumn": 143,
-                        "endOffset": 3020
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 48,
-                    "startColumn": 4,
-                    "startOffset": 6790,
-                    "endColumn": 93,
-                    "endOffset": 6879
-                },
-                "from": {
-                    "file": "C:\\Users\\Beto\\Desktop\\CarnavalRiosucioApp\\repositorio\\CarnavalDiablo\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\values-mn-rMN\\common_strings.xml",
-                    "position": {
-                        "startLine": 29,
-                        "startColumn": 4,
-                        "startOffset": 4509,
-                        "endColumn": 93,
-                        "endOffset": 4598
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 49,
-                    "startColumn": 4,
-                    "startOffset": 6884,
+                    "startOffset": 2004,
                     "endColumn": 100,
-                    "endOffset": 6980
+                    "endOffset": 2100
                 },
                 "from": {
-                    "file": "C:\\Users\\Beto\\Desktop\\CarnavalRiosucioApp\\repositorio\\CarnavalDiablo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\values-mn-rMN\\values-mn-rMN.xml",
+                    "file": "C:\\Users\\Beto\\Desktop\\CarnavalRiosucioApp\\repositorio\\CarnavalDiablo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values-mn-rMN\\values-mn-rMN.xml",
                     "position": {
                         "startLine": 21,
                         "startColumn": 4,
-                        "startOffset": 2065,
+                        "startOffset": 2004,
                         "endColumn": 100,
-                        "endOffset": 2161
+                        "endOffset": 2100
                     }
                 }
             }
