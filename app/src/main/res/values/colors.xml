@@ -3,6 +3,7 @@
     <color name="colorPrimary">#F44336</color>
     <color name="colorPrimaryDark">#D32F2F</color>
     <color name="colorAccent">#FFC107</color>
+
     <color name="windowbackground">#EEEEEE</color>
     <color name="colo_fab2">#FF5722</color>
     <color name="colo_fab3">#FFA000</color>

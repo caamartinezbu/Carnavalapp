@@ -4,7 +4,23 @@
         "source": "C:\\Users\\Beto\\Desktop\\CarnavalRiosucioApp\\repositorio\\CarnavalDiablo\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_home.png"
     },
     {
+        "merged": "C:\\Users\\Beto\\Desktop\\CarnavalRiosucioApp\\repositorio\\CarnavalDiablo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\places_ic_clear.png",
+        "source": "C:\\Users\\Beto\\Desktop\\CarnavalRiosucioApp\\repositorio\\CarnavalDiablo\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-location\\8.4.0\\res\\drawable-xxxhdpi\\places_ic_clear.png"
+    },
+    {
+        "merged": "C:\\Users\\Beto\\Desktop\\CarnavalRiosucioApp\\repositorio\\CarnavalDiablo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\powered_by_google_light.png",
+        "source": "C:\\Users\\Beto\\Desktop\\CarnavalRiosucioApp\\repositorio\\CarnavalDiablo\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-location\\8.4.0\\res\\drawable-xxxhdpi\\powered_by_google_light.png"
+    },
+    {
+        "merged": "C:\\Users\\Beto\\Desktop\\CarnavalRiosucioApp\\repositorio\\CarnavalDiablo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\places_ic_search.png",
+        "source": "C:\\Users\\Beto\\Desktop\\CarnavalRiosucioApp\\repositorio\\CarnavalDiablo\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-location\\8.4.0\\res\\drawable-xxxhdpi\\places_ic_search.png"
+    },
+    {
         "merged": "C:\\Users\\Beto\\Desktop\\CarnavalRiosucioApp\\repositorio\\CarnavalDiablo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\img2.png",
         "source": "C:\\Users\\Beto\\Desktop\\CarnavalRiosucioApp\\repositorio\\CarnavalDiablo\\app\\src\\main\\res\\drawable-xxxhdpi\\img2.png"
+    },
+    {
+        "merged": "C:\\Users\\Beto\\Desktop\\CarnavalRiosucioApp\\repositorio\\CarnavalDiablo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\powered_by_google_dark.png",
+        "source": "C:\\Users\\Beto\\Desktop\\CarnavalRiosucioApp\\repositorio\\CarnavalDiablo\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-location\\8.4.0\\res\\drawable-xxxhdpi\\powered_by_google_dark.png"
     }
 ]

@@ -171,7 +171,7 @@ private void inicializaAdaptador(){
                                 Toast.makeText(NavigationDrawer_Home.this, "Mapas" + menuItem.getTitle().toString(), Toast.LENGTH_SHORT).show();
                                 DrawerLayout drawer2 = (DrawerLayout) findViewById(R.id.drawer_layout);
                                 drawer2.closeDrawer(GravityCompat.START);
-                                Intent intent2 = new Intent(NavigationDrawer_Home.this, Mapas.class);
+                                Intent intent2 = new Intent(NavigationDrawer_Home.this, MainActivity.class);
                                 startActivity(intent2);
                                 return true;
                             case R.id.item_navigation_drawer_cuadrillas:

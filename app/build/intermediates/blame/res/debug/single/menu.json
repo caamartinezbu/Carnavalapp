@@ -1,7 +1,15 @@
 [
     {
+        "merged": "C:\\Users\\Beto\\Desktop\\CarnavalRiosucioApp\\repositorio\\CarnavalDiablo\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_main_drawer.xml",
+        "source": "C:\\Users\\Beto\\Desktop\\CarnavalRiosucioApp\\repositorio\\CarnavalDiablo\\app\\src\\main\\res\\menu\\activity_main_drawer.xml"
+    },
+    {
         "merged": "C:\\Users\\Beto\\Desktop\\CarnavalRiosucioApp\\repositorio\\CarnavalDiablo\\app\\build\\intermediates\\res\\merged\\debug\\menu\\navigation_drawer__home.xml",
         "source": "C:\\Users\\Beto\\Desktop\\CarnavalRiosucioApp\\repositorio\\CarnavalDiablo\\app\\src\\main\\res\\menu\\navigation_drawer__home.xml"
+    },
+    {
+        "merged": "C:\\Users\\Beto\\Desktop\\CarnavalRiosucioApp\\repositorio\\CarnavalDiablo\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "C:\\Users\\Beto\\Desktop\\CarnavalRiosucioApp\\repositorio\\CarnavalDiablo\\app\\src\\main\\res\\menu\\main.xml"
     },
     {
         "merged": "C:\\Users\\Beto\\Desktop\\CarnavalRiosucioApp\\repositorio\\CarnavalDiablo\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_navigation_drawer__home_drawer.xml",
