@@ -1,6 +1,14 @@
 [
     {
-        "merged": "C:\\Users\\Beto\\Desktop\\CarnavalRiosucioApp\\repositorio\\CarnavalDiablo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_home.xml",
-        "source": "C:\\Users\\Beto\\Desktop\\CarnavalRiosucioApp\\repositorio\\CarnavalDiablo\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_home.xml"
+        "merged": "D:\\Documents\\mapas\\repositorio\\CarnavalDiablo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_home.xml",
+        "source": "D:\\Documents\\mapas\\repositorio\\CarnavalDiablo\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_home.xml"
+    },
+    {
+        "merged": "D:\\Documents\\mapas\\repositorio\\CarnavalDiablo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\map_marker_radius.xml",
+        "source": "D:\\Documents\\mapas\\repositorio\\CarnavalDiablo\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\map_marker_radius.xml"
+    },
+    {
+        "merged": "D:\\Documents\\mapas\\repositorio\\CarnavalDiablo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\logout.xml",
+        "source": "D:\\Documents\\mapas\\repositorio\\CarnavalDiablo\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\logout.xml"
     }
 ]

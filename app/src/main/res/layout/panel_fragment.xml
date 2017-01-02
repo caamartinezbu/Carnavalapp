@@ -3,21 +3,35 @@
     android:layout_width="match_parent"
     android:background="#6c6b6b"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:weightSum="1">
 
     <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="250dp"
-        android:src="@drawable/img2"
+        android:layout_width="wrap_content"
+        android:layout_height="268dp"
+        android:src="@drawable/diablohome"
+        android:focusable="true"
         android:scaleType="centerCrop"
-        android:layout_marginTop="15dp" />
+        android:layout_marginTop="15dp"
+        android:id="@+id/imageView2" />
 
-<LinearLayout
+    <LinearLayout
+    android:id="@+id/carnaval"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="horizontal"
-    android:background="#2F373D">
+    android:background="#2F373D"
+    android:clickable="true"
+    >
 
+    <ImageButton
+        android:id="@+id/btn_cuadrillas"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@mipmap/btn_cuadrillas"
+        android:background="#2F373D"/>
+
+<!--
     <ImageView
         android:layout_width="60dp"
         android:layout_height="60dp"
@@ -31,7 +45,7 @@
 
         android:textSize="20dp"
         android:textColor="#ffffff"
-        android:layout_marginTop="20dp" />
+        android:layout_marginTop="20dp" />-->
 
 </LinearLayout>
 

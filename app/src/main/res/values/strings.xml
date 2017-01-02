@@ -2,6 +2,8 @@
     <string name="app_name">Riosucio</string>
     <string name="title_activity_cardview">Carnaval</string>
     <string name="title_activity_cuadrillas">Cuadrillas</string>
+    <string name="title_activity_programacion">Programación</string>
+    <string name="title_activity_Desfiles">Desfiles</string>
     <string name="Titulo_paisaje_mañana">Desfiles de Cuadrillas</string>
     <string name="titulo_afiche_carnaval">Afiche Carnaval Riosucio</string>
     <string name="title_activity_navigation_drawer__home">Carnaval Riosucio</string>
@@ -11,6 +13,9 @@
     <string name="Titulo_CORPORACION">CORPORACIÓN</string>
     <string name="Titulo_carnaval">Carnaval De Riosucio</string>
     <string name="Patrimonio_Lema">Patrimonio Cultural Oral e Inmaterial de la Nación</string>
+
+    <string name="backdrop_title">Programación</string>
+    <string name="backdrop_subtitle">Enterate de lo que tiene el carnaval para ti</string>
 
 
     <string name="action_settings">Settings</string>

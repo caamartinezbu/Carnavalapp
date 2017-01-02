@@ -1,26 +1,38 @@
 [
     {
-        "merged": "C:\\Users\\Beto\\Desktop\\CarnavalRiosucioApp\\repositorio\\CarnavalDiablo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_home.png",
-        "source": "C:\\Users\\Beto\\Desktop\\CarnavalRiosucioApp\\repositorio\\CarnavalDiablo\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_home.png"
+        "merged": "D:\\Documents\\mapas\\repositorio\\CarnavalDiablo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_home.png",
+        "source": "D:\\Documents\\mapas\\repositorio\\CarnavalDiablo\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_home.png"
     },
     {
-        "merged": "C:\\Users\\Beto\\Desktop\\CarnavalRiosucioApp\\repositorio\\CarnavalDiablo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\places_ic_clear.png",
-        "source": "C:\\Users\\Beto\\Desktop\\CarnavalRiosucioApp\\repositorio\\CarnavalDiablo\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-location\\8.4.0\\res\\drawable-xxxhdpi\\places_ic_clear.png"
+        "merged": "D:\\Documents\\mapas\\repositorio\\CarnavalDiablo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\places_ic_search.png",
+        "source": "D:\\Documents\\mapas\\repositorio\\CarnavalDiablo\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-location\\8.4.0\\res\\drawable-xxxhdpi\\places_ic_search.png"
     },
     {
-        "merged": "C:\\Users\\Beto\\Desktop\\CarnavalRiosucioApp\\repositorio\\CarnavalDiablo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\powered_by_google_light.png",
-        "source": "C:\\Users\\Beto\\Desktop\\CarnavalRiosucioApp\\repositorio\\CarnavalDiablo\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-location\\8.4.0\\res\\drawable-xxxhdpi\\powered_by_google_light.png"
+        "merged": "D:\\Documents\\mapas\\repositorio\\CarnavalDiablo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\powered_by_google_dark.png",
+        "source": "D:\\Documents\\mapas\\repositorio\\CarnavalDiablo\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-location\\8.4.0\\res\\drawable-xxxhdpi\\powered_by_google_dark.png"
     },
     {
-        "merged": "C:\\Users\\Beto\\Desktop\\CarnavalRiosucioApp\\repositorio\\CarnavalDiablo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\places_ic_search.png",
-        "source": "C:\\Users\\Beto\\Desktop\\CarnavalRiosucioApp\\repositorio\\CarnavalDiablo\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-location\\8.4.0\\res\\drawable-xxxhdpi\\places_ic_search.png"
+        "merged": "D:\\Documents\\mapas\\repositorio\\CarnavalDiablo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\map_marker_radius.png",
+        "source": "D:\\Documents\\mapas\\repositorio\\CarnavalDiablo\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\map_marker_radius.png"
     },
     {
-        "merged": "C:\\Users\\Beto\\Desktop\\CarnavalRiosucioApp\\repositorio\\CarnavalDiablo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\img2.png",
-        "source": "C:\\Users\\Beto\\Desktop\\CarnavalRiosucioApp\\repositorio\\CarnavalDiablo\\app\\src\\main\\res\\drawable-xxxhdpi\\img2.png"
+        "merged": "D:\\Documents\\mapas\\repositorio\\CarnavalDiablo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\diablohome.png",
+        "source": "D:\\Documents\\mapas\\repositorio\\CarnavalDiablo\\app\\src\\main\\res\\drawable-xxxhdpi\\diablohome.png"
     },
     {
-        "merged": "C:\\Users\\Beto\\Desktop\\CarnavalRiosucioApp\\repositorio\\CarnavalDiablo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\powered_by_google_dark.png",
-        "source": "C:\\Users\\Beto\\Desktop\\CarnavalRiosucioApp\\repositorio\\CarnavalDiablo\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-location\\8.4.0\\res\\drawable-xxxhdpi\\powered_by_google_dark.png"
+        "merged": "D:\\Documents\\mapas\\repositorio\\CarnavalDiablo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\img2.png",
+        "source": "D:\\Documents\\mapas\\repositorio\\CarnavalDiablo\\app\\src\\main\\res\\drawable-xxxhdpi\\img2.png"
+    },
+    {
+        "merged": "D:\\Documents\\mapas\\repositorio\\CarnavalDiablo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\powered_by_google_light.png",
+        "source": "D:\\Documents\\mapas\\repositorio\\CarnavalDiablo\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-location\\8.4.0\\res\\drawable-xxxhdpi\\powered_by_google_light.png"
+    },
+    {
+        "merged": "D:\\Documents\\mapas\\repositorio\\CarnavalDiablo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\places_ic_clear.png",
+        "source": "D:\\Documents\\mapas\\repositorio\\CarnavalDiablo\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-location\\8.4.0\\res\\drawable-xxxhdpi\\places_ic_clear.png"
+    },
+    {
+        "merged": "D:\\Documents\\mapas\\repositorio\\CarnavalDiablo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\logout.png",
+        "source": "D:\\Documents\\mapas\\repositorio\\CarnavalDiablo\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\logout.png"
     }
 ]
