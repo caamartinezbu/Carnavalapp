@@ -18,12 +18,12 @@ public class AdapterFish extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
 
     private Context context;
     private LayoutInflater inflater;
-    List<DataFish> data= Collections.emptyList();
-    DataFish current;
+    List<Event> data= Collections.emptyList();
+    Event current;
     int currentPos=0;
 
     // create constructor to innitilize context and data sent from MainActivity
-    public AdapterFish(Context context, List<DataFish> data){
+    public AdapterFish(Context context, List<Event> data){
         this.context=context;
         inflater= LayoutInflater.from(context);
         this.data=data;
@@ -43,18 +43,18 @@ public class AdapterFish extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
 
         // Get current position of item in recyclerview to bind data and assign values from list
         MyHolder myHolder= (MyHolder) holder;
-        DataFish current=data.get(position);
-        myHolder.textFishName.setText(current.fishName);
-        myHolder.textSize.setText( current.sizeName);//size
-        myHolder.textType.setText(current.catName);
-        myHolder.textPrice.setText(current.price + ":00pm");
+        Event current=data.get(position);
+        myHolder.textFishName.setText(current.nombre);
+        myHolder.textSize.setText( current.fecha);//size
+        myHolder.textPrice.setText(current.hora_inicio + "-" + current.hora_final);
+        myHolder.textType.setText(current.lugar);
         /*myHolder.textPrice.setTextColor(ContextCompat.getColor(context, R.color.letras));
         myHolder.textFishName.setTextColor(ContextCompat.getColor(context, R.color.letras));
         myHolder.textSize.setTextColor(ContextCompat.getColor(context, R.color.letras));
         myHolder.textType.setTextColor(ContextCompat.getColor(context, R.color.letras));*/
 
         // load image into imageview using glide
-        Glide.with(context).load("http://controlapp.com.co/test/images/" + current.fishImage)
+        Glide.with(context).load("http://controlapp.com.co/carnaval/images/" + current.link_imagen)
                 .placeholder(R.drawable.cloud_sync)
                 .error(R.drawable.cloud_off)
                 .into(myHolder.ivFish);

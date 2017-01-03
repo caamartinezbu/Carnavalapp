@@ -20,17 +20,24 @@ import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
 
+import org.apache.http.NameValuePair;
+import org.apache.http.message.BasicNameValuePair;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.io.BufferedReader;
+import java.io.BufferedWriter;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.io.OutputStream;
+import java.io.OutputStreamWriter;
+import java.io.UnsupportedEncodingException;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.net.URLEncoder;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -118,13 +125,35 @@ public class Programacion extends AppCompatActivity {
 
         }
 
+
+        private String getQuery(List<NameValuePair> params) throws UnsupportedEncodingException
+        {
+            StringBuilder result = new StringBuilder();
+            boolean first = true;
+
+            for (NameValuePair pair : params)
+            {
+                if (first)
+                    first = false;
+                else
+                    result.append("&");
+
+                result.append(URLEncoder.encode(pair.getName(), "UTF-8"));
+                result.append("=");
+                result.append(URLEncoder.encode(pair.getValue(), "UTF-8"));
+            }
+
+            return result.toString();
+        }
+
+
         @Override
         protected String doInBackground(String... params) {
             try {
 
                 // Enter URL address where your json file resides
                 // Even you can make call to php file which returns json data
-                url = new URL("http://controlapp.com.co/test/example.json");
+                url = new URL(new Constants().getEventsQueryUrl());
 
             } catch (MalformedURLException e) {
                 // TODO Auto-generated catch block
@@ -137,10 +166,21 @@ public class Programacion extends AppCompatActivity {
                 conn = (HttpURLConnection) url.openConnection();
                 conn.setReadTimeout(READ_TIMEOUT);
                 conn.setConnectTimeout(CONNECTION_TIMEOUT);
-                conn.setRequestMethod("GET");
 
-                // setDoOutput to true as we recieve data from json file
+                conn.setRequestMethod("POST");
+                conn.setDoInput(true);
                 conn.setDoOutput(true);
+                List<NameValuePair> parameters = new ArrayList<NameValuePair>();
+                parameters.add(new BasicNameValuePair("token", "n8Qhi3CImB8nb9ZXIZ9gcPb4KMlgUd5g"));
+                parameters.add(new BasicNameValuePair("action", "SELECT_ALL_EVENTS"));
+                OutputStream os = conn.getOutputStream();
+                BufferedWriter writer = new BufferedWriter(
+                        new OutputStreamWriter(os, "UTF-8"));
+                writer.write(getQuery(parameters));
+                writer.flush();
+                writer.close();
+                os.close();
+                conn.connect();
 
             } catch (IOException e1) {
                 // TODO Auto-generated catch block
@@ -161,7 +201,9 @@ public class Programacion extends AppCompatActivity {
                     StringBuilder result = new StringBuilder();
                     String line;
 
+
                     while ((line = reader.readLine()) != null) {
+                        System.out.println(line);
                         result.append(line);
                     }
 
@@ -189,7 +231,7 @@ public class Programacion extends AppCompatActivity {
             //this method will be running on UI thread
 
             pdLoading.dismiss();
-            List<DataFish> data=new ArrayList<>();
+            List<Event> data=new ArrayList<>();
 
             pdLoading.dismiss();
             try {
@@ -199,12 +241,16 @@ public class Programacion extends AppCompatActivity {
                 // Extract data from json and store into ArrayList as class objects
                 for(int i=0;i<jArray.length();i++){
                     JSONObject json_data = jArray.getJSONObject(i);
-                    DataFish fishData = new DataFish();
-                    fishData.fishImage= json_data.getString("fish_img");
-                    fishData.fishName= json_data.getString("fish_name");
-                    fishData.catName= json_data.getString("cat_name");
-                    fishData.sizeName= json_data.getString("size_name");
-                    fishData.price= json_data.getInt("price");
+                    Event fishData = new Event();
+                    fishData.id= json_data.getString("id");
+                    fishData.fecha= json_data.getString("fecha");
+                    fishData.hora_inicio= json_data.getString("hora_inicio");
+                    fishData.hora_final= json_data.getString("hora_final");
+                    fishData.tipo= json_data.getString("tipo");
+                    fishData.lugar= json_data.getString("lugar");
+                    fishData.descripcion= json_data.getString("descripcion");
+                    fishData.link_imagen= json_data.getString("link_imagen");
+                    fishData.nombre= json_data.getString("nombre");
                     data.add(fishData);
                 }
 

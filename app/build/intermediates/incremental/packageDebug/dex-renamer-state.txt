@@ -1,4 +1,4 @@
-#Mon Jan 02 21:19:49 COT 2017
+#Mon Jan 02 23:42:28 COT 2017
 base.0=D\:\\Desktop\\Repositorio app\\CarnavalDiablo\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_23d15e4be0b04c4eaedd18305de07ea4098a6158
 renamed.1=classes.dex
 renamed.0=classes2.dex
