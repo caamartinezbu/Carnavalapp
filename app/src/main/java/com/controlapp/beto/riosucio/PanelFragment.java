@@ -27,13 +27,33 @@ public class PanelFragment extends Fragment {
             @Override
             public void onClick(View v) {
 
-                Intent cuadrillas = new Intent(getActivity(), Programacion.class);
+                Intent cuadrillas = new Intent(getActivity(), Cuadrillas.class);
                 startActivity(cuadrillas);
-
-
-
             }
         });
+
+        ImageButton btnprogramacion = (ImageButton)view.findViewById(R.id.btn_programacion);
+        btnprogramacion.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent programacion = new Intent(getActivity(), Programacion.class);
+                startActivity(programacion);
+            }
+        });
+
+        ImageButton btn_noticias = (ImageButton)view.findViewById(R.id.btn_noticias);
+        btn_noticias.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent noticias = new Intent(getActivity(), Noticias.class);
+                startActivity(noticias);
+            }
+        });
+
+
+
 
        /* ((NavigationDrawer_Home) getActivity()).getSupportActionBar().setTitle("Fragment Inbox");
 

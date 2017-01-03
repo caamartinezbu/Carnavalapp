@@ -61,7 +61,18 @@
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".NavigationDrawer_Home" />
-        </activity>s
+        </activity>
+
+
+        <activity
+            android:name=".Noticias"
+            android:parentActivityName=".NavigationDrawer_Home"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".NavigationDrawer_Home" />
+        </activity>
+
 
 
     </application>

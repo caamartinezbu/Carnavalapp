@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="armeabi-v7a,armeabi"
-    api-level="22"
-    density="xhdpi"
+    abi="x86_64,x86"
+    api-level="23"
+    density="mdpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="452971912077809"
-    token="7735672811924798285"
+    timestamp="470169737586728"
+    token="-1521048405260335460"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="3783" />
+        duration="4167" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="1663" />
+        duration="3279" />
     <task
         name="verifier"
-        duration="411" />
+        duration="2835" />
 
     <artifact
-        location="D:\Documents\mapas\repositorio\CarnavalDiablo\app\build\outputs\apk\app-debug.apk"
+        location="D:\Desktop\Repositorio app\CarnavalDiablo\app\build\outputs\apk\app-debug.apk"
         type="MAIN" />
 
     <build
-        timestamp="452971912077809"
+        timestamp="470169737586728"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="D:\Documents\mapas\repositorio\CarnavalDiablo\app\build\outputs\apk\app-debug.apk"
+            location="D:\Desktop\Repositorio app\CarnavalDiablo\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
     </build>
 
