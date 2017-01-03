@@ -192,14 +192,14 @@ private void inicializaAdaptador(){
                                 Intent intent2 = new Intent(NavigationDrawer_Home.this, MainActivity.class);
                                 startActivity(intent2);
                                 return true;
-                            case R.id.item_navigation_drawer_cuadrillas:
+                            /*case R.id.item_navigation_drawer_cuadrillas:
                                 menuItem.setChecked(true);
                                 //Toast.makeText(NavigationDrawer_Home.this, "cuadrillas " + menuItem.getTitle().toString(), Toast.LENGTH_SHORT).show();
                                 DrawerLayout drawer1 = (DrawerLayout) findViewById(R.id.drawer_layout);
                                 drawer1.closeDrawer(GravityCompat.START);
                                 Intent intent = new Intent(NavigationDrawer_Home.this, Cuadrillas.class);
                                 startActivity(intent);
-                                return true;
+                                return true;*/
                             case R.id.item_navigation_drawer_tutorial:
                                 menuItem.setChecked(true);
                                 DrawerLayout drawer5 = (DrawerLayout) findViewById(R.id.drawer_layout);

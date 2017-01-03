@@ -15,10 +15,6 @@
             android:icon="@drawable/ic_menu_history"
             android:title="Historia" />
         <item
-            android:id="@+id/item_navigation_drawer_video"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="Calendario" />
-        <item
             android:id="@+id/item_navigation_drawer_tutorial"
             android:icon="@drawable/ic_menu_diablito"
             android:title="¿Sabias Que?" />
@@ -29,12 +25,8 @@
             <item
                 android:id="@+id/item_navigation_drawer_mapas"
                 android:icon="@drawable/ic_menu_mapas"
-                android:title="Mapas" />
-            <item
-                android:id="@+id/item_navigation_drawer_cuadrillas"
-                android:icon="@drawable/ic_menu_dance2"
-                android:title="Cuadrillas" />
-        </menu>
+                android:title="Recorridos Desfiles" />
+                    </menu>
     </item>
 
 </menu>

@@ -80,7 +80,7 @@ MERGED from [com.android.support:support-v4:23.4.0] D:\Desktop\Repositorio app\C
 	android:allowBackup
 		ADDED from D:\Desktop\Repositorio app\CarnavalDiablo\app\src\main\AndroidManifest.xml:11:9-35
 	android:icon
-		ADDED from D:\Desktop\Repositorio app\CarnavalDiablo\app\src\main\AndroidManifest.xml:12:9-46
+		ADDED from D:\Desktop\Repositorio app\CarnavalDiablo\app\src\main\AndroidManifest.xml:12:9-43
 	android:theme
 		ADDED from D:\Desktop\Repositorio app\CarnavalDiablo\app\src\main\AndroidManifest.xml:15:9-40
 meta-data#com.google.android.geo.API_KEY

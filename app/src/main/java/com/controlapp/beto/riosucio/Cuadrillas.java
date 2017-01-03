@@ -93,7 +93,7 @@ public class Cuadrillas extends AppCompatActivity {
         }
         try {
 
-            Glide.with(this).load("http://controlapp.com.co/test/images/evento2.jpg").into((ImageView) findViewById(R.id.backdrop));
+            Glide.with(this).load("http://controlapp.com.co/test/images/cuadrillas.jpg").into((ImageView) findViewById(R.id.backdrop));
             // Glide.with(this).load(R.drawable.evento).into((ImageView) findViewById(R.id.backdrop));
         } catch (Exception e) {
             e.printStackTrace();
