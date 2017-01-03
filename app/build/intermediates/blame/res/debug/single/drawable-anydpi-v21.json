@@ -1,18 +1,18 @@
 [
     {
-        "merged": "D:\\Desktop\\Repositorio app\\CarnavalDiablo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_person.xml",
-        "source": "D:\\Desktop\\Repositorio app\\CarnavalDiablo\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_person.xml"
+        "merged": "/Users/JuanSe/Desktop/Carnaval/CarnavalDiablo/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/map_marker_radius.xml",
+        "source": "/Users/JuanSe/Desktop/Carnaval/CarnavalDiablo/app/build/generated/res/pngs/debug/drawable-anydpi-v21/map_marker_radius.xml"
     },
     {
-        "merged": "D:\\Desktop\\Repositorio app\\CarnavalDiablo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\map_marker_radius.xml",
-        "source": "D:\\Desktop\\Repositorio app\\CarnavalDiablo\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\map_marker_radius.xml"
+        "merged": "/Users/JuanSe/Desktop/Carnaval/CarnavalDiablo/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_person.xml",
+        "source": "/Users/JuanSe/Desktop/Carnaval/CarnavalDiablo/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_person.xml"
     },
     {
-        "merged": "D:\\Desktop\\Repositorio app\\CarnavalDiablo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\logout.xml",
-        "source": "D:\\Desktop\\Repositorio app\\CarnavalDiablo\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\logout.xml"
+        "merged": "/Users/JuanSe/Desktop/Carnaval/CarnavalDiablo/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_home.xml",
+        "source": "/Users/JuanSe/Desktop/Carnaval/CarnavalDiablo/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_home.xml"
     },
     {
-        "merged": "D:\\Desktop\\Repositorio app\\CarnavalDiablo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_home.xml",
-        "source": "D:\\Desktop\\Repositorio app\\CarnavalDiablo\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_home.xml"
+        "merged": "/Users/JuanSe/Desktop/Carnaval/CarnavalDiablo/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/logout.xml",
+        "source": "/Users/JuanSe/Desktop/Carnaval/CarnavalDiablo/app/build/generated/res/pngs/debug/drawable-anydpi-v21/logout.xml"
     }
 ]

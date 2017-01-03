@@ -54,7 +54,6 @@
             android:value="@integer/google_play_services_version" />
 
         <activity android:name=".WelcomeActivity" />
-
         <activity
             android:name=".Programacion"
             android:parentActivityName=".NavigationDrawer_Home"
@@ -63,8 +62,6 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".NavigationDrawer_Home" />
         </activity>
-
-
         <activity
             android:name=".Noticias"
             android:parentActivityName=".NavigationDrawer_Home"
@@ -73,7 +70,6 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".NavigationDrawer_Home" />
         </activity>
-
         <activity
             android:name=".DefaultEvent"
             android:parentActivityName=".Programacion"
@@ -82,9 +78,7 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".NavigationDrawer_Home" />
         </activity>
-
-
-
+        <activity android:name=".AboutActivity"></activity>
     </application>
 
 </manifest>

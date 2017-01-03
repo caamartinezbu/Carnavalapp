@@ -90,6 +90,16 @@ public class NavigationDrawer_Home extends AppCompatActivity /*implements Naviga
         // ATTENTION: This was auto-generated to implement the App Indexing API.
         // See https://g.co/AppIndexing/AndroidStudio for more information.
         client = new GoogleApiClient.Builder(this).addApi(AppIndex.API).build();
+
+
+        FloatingActionButton myFab = (FloatingActionButton) this.findViewById(R.id.fab3);
+        myFab.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(NavigationDrawer_Home.this, AboutActivity.class);
+                startActivity(intent);
+            }
+        });
+
     }
 
 /*
@@ -222,6 +232,8 @@ private void inicializaAdaptador(){
                     }
                 });
     }
+
+
 
 
     public void setFragment(int position) {
