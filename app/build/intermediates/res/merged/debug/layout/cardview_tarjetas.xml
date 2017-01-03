@@ -23,7 +23,7 @@
         <ImageView
             android:id="@+id/imgFoto"
             android:layout_width="match_parent"
-            android:layout_height="165dp"
+            android:layout_height="241dp"
             android:src="@drawable/side_nav_bar"
             android:scaleType="centerCrop"
             />

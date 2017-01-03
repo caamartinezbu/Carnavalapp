@@ -6,7 +6,8 @@
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context=".Programacion"
-    tools:showIn="@layout/programacion">
+    tools:showIn="@layout/programacion"
+    android:background="#424C51">
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/fishPriceList"

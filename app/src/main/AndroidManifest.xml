@@ -13,6 +13,7 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        android:name="android.support.multidex.MultiDexApplication">
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyAvu_oP1ktqLP3SyyAyqC7KwrPDiuU-O70" />
@@ -67,6 +68,15 @@
         <activity
             android:name=".Noticias"
             android:parentActivityName=".NavigationDrawer_Home"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".NavigationDrawer_Home" />
+        </activity>
+
+        <activity
+            android:name=".DefaultEvent"
+            android:parentActivityName=".Programacion"
             android:theme="@style/AppTheme">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"

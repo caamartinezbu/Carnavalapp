@@ -22,6 +22,7 @@ public class AdapterFish extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
     Event current;
     int currentPos=0;
 
+
     // create constructor to innitilize context and data sent from MainActivity
     public AdapterFish(Context context, List<Event> data){
         this.context=context;
@@ -54,8 +55,8 @@ public class AdapterFish extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
         myHolder.textType.setTextColor(ContextCompat.getColor(context, R.color.letras));*/
 
         // load image into imageview using glide
-        Glide.with(context).load("http://controlapp.com.co/carnaval/images/" + current.link_imagen)
-                .placeholder(R.drawable.cloud_sync)
+        Glide.with(context).load("http://controlapp.com.co/carnaval/images/eventos/" + current.link_imagen)
+                .placeholder(R.drawable.cloud_off)
                 .error(R.drawable.cloud_off)
                 .into(myHolder.ivFish);
 

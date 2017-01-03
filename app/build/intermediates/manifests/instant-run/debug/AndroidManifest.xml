@@ -84,6 +84,14 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".NavigationDrawer_Home" />
         </activity>
+        <activity
+            android:name="com.controlapp.beto.riosucio.DefaultEvent"
+            android:parentActivityName="com.controlapp.beto.riosucio.Programacion"
+            android:theme="@style/AppTheme" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".NavigationDrawer_Home" />
+        </activity>
 
         <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
         <activity

@@ -1,72 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="x86_64,x86"
+    abi="armeabi-v7a,armeabi"
     api-level="23"
-    density="xxhdpi"
+    density="xhdpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="480579047687866"
+    timestamp="501815541736410"
     token="-1521048405260335460"
-    verifier="COMPATIBLE" >
+    verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="1181" />
+        duration="1004" />
     <task
         name="instant-run-dex"
-        duration="1011" />
+        duration="0" />
     <task
         name="instant-run-transform"
-        duration="41" />
+        duration="1575" />
     <task
         name="verifier"
-        duration="5" />
+        duration="649" />
 
     <artifact
-        location="D:\Desktop\Repositorio app\CarnavalDiablo\app\build\intermediates\reload-dex\debug\classes.dex"
-        type="RELOAD_DEX" />
+        location="D:\Desktop\Repositorio app\CarnavalDiablo\app\build\outputs\apk\app-debug.apk"
+        type="MAIN" />
 
     <build
-        timestamp="478746489757806"
+        timestamp="501815541736410"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="D:\Desktop\Repositorio app\CarnavalDiablo\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
-    </build>
-    <build
-        timestamp="479602771965869"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="D:\Desktop\Repositorio app\CarnavalDiablo\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_8\classes.dex"
-            type="DEX" />
-    </build>
-    <build
-        timestamp="479850950669283"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="D:\Desktop\Repositorio app\CarnavalDiablo\app\build\intermediates\builds\debug\479850950669283\classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build
-        timestamp="479869025992766"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="D:\Desktop\Repositorio app\CarnavalDiablo\app\build\intermediates\builds\debug\479869025992766\classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build
-        timestamp="480311280133441"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="D:\Desktop\Repositorio app\CarnavalDiablo\app\build\intermediates\builds\debug\480311280133441\classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build
-        timestamp="480579047687866"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="D:\Desktop\Repositorio app\CarnavalDiablo\app\build\intermediates\reload-dex\debug\classes.dex"
-            type="RELOAD_DEX" />
     </build>
 
 </instant-run>

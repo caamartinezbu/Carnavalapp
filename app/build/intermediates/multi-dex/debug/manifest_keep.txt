@@ -1,0 +1,17 @@
+-keep class com.controlapp.beto.riosucio.SplashScreen { <init>(); }
+-keep class com.controlapp.beto.riosucio.MainActivity { <init>(); }
+-keep class com.controlapp.beto.riosucio.Cuadrillas { <init>(); }
+-keep class com.controlapp.beto.riosucio.Cardview { <init>(); }
+-keep class com.controlapp.beto.riosucio.NavigationDrawer_Home { <init>(); }
+-keep class com.controlapp.beto.riosucio.WelcomeActivity { <init>(); }
+-keep class com.controlapp.beto.riosucio.Programacion { <init>(); }
+-keep class com.controlapp.beto.riosucio.Noticias { <init>(); }
+-keep class com.controlapp.beto.riosucio.DefaultEvent { <init>(); }
+-keep class com.google.android.gms.ads.AdActivity { <init>(); }
+-keep class com.google.android.gms.ads.purchase.InAppPurchaseActivity { <init>(); }
+-keep class com.google.android.gms.appinvite.PreviewActivity { <init>(); }
+-keep class com.google.android.gms.auth.api.signin.internal.SignInHubActivity { <init>(); }
+-keep class com.google.android.gms.auth.api.signin.RevocationBoundService { <init>(); }
+-keep class com.google.android.gms.measurement.AppMeasurementContentProvider { <init>(); }
+-keep class com.google.android.gms.measurement.AppMeasurementReceiver { <init>(); }
+-keep class com.google.android.gms.measurement.AppMeasurementService { <init>(); }

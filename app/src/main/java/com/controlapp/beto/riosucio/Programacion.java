@@ -1,6 +1,7 @@
 package com.controlapp.beto.riosucio;
 
 import android.app.ProgressDialog;
+import android.content.Intent;
 import android.graphics.Bitmap;
 import android.os.AsyncTask;
 import android.os.Build;
@@ -15,6 +16,7 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.util.TypedValue;
+import android.view.View;
 import android.widget.ImageView;
 import android.widget.Toast;
 
@@ -54,6 +56,7 @@ public class Programacion extends AppCompatActivity {
     public static final int READ_TIMEOUT = 15000;
     private RecyclerView mRVFishPrice;
     private AdapterFish mAdapter;
+
 
 
     @Override
@@ -108,6 +111,7 @@ public class Programacion extends AppCompatActivity {
         collapsingToolbarLayout.setCollapsedTitleTextAppearance(R.style.collapsedappbar);
         collapsingToolbarLayout.setExpandedTitleTextAppearance(R.style.expandedappbar);
     }
+
 
     private class AsyncLogin extends AsyncTask<String, String, String> {
         ProgressDialog pdLoading = new ProgressDialog(Programacion.this);
@@ -203,7 +207,6 @@ public class Programacion extends AppCompatActivity {
 
 
                     while ((line = reader.readLine()) != null) {
-                        System.out.println(line);
                         result.append(line);
                     }
 
@@ -256,6 +259,24 @@ public class Programacion extends AppCompatActivity {
 
                 // Setup and Handover data to recyclerview
                 mRVFishPrice = (RecyclerView)findViewById(R.id.fishPriceList);
+
+                mRVFishPrice.addOnItemTouchListener(
+                        new RecyclerItemClickListener(Programacion.this, mRVFishPrice ,new RecyclerItemClickListener.OnItemClickListener() {
+                            @Override public void onItemClick(View view, int position) {
+
+                                Intent visual = new Intent(Programacion.this, DefaultEvent.class);
+                                visual.putExtra("event_id", position + 1);
+                                startActivity(visual);
+
+
+                            }
+
+                            @Override public void onLongItemClick(View view, int position) {
+                                // do whatever
+                            }
+                        })
+                );
+
                 mAdapter = new AdapterFish(Programacion.this, data);
                 mRVFishPrice.setAdapter(mAdapter);
                 mRVFishPrice.setLayoutManager(new LinearLayoutManager(Programacion.this));
