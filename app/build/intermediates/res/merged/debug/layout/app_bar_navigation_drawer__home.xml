@@ -62,29 +62,17 @@
         fab:menu_backgroundColor="#ccffffff"
         >
 
-        <com.github.clans.fab.FloatingActionButton
-            android:id="@+id/fab1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/ic_menu_send"
-            fab:fab_size="mini"
-            fab:fab_label="Ayuda" />
 
-        <com.github.clans.fab.FloatingActionButton
-            android:id="@+id/fab2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/ic_menu_gallery"
-            fab:fab_size="mini"
-            fab:fab_label="Galeria" />
+
+
 
         <com.github.clans.fab.FloatingActionButton
             android:id="@+id/fab3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/ic_menu_camera"
+            android:src="@drawable/inf"
             fab:fab_size="mini"
-            fab:fab_label="Marco del Carnaval" />
+            fab:fab_label="About" />
 
     </com.github.clans.fab.FloatingActionMenu>
 

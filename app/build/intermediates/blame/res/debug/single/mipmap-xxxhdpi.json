@@ -1,9 +1,5 @@
 [
     {
-        "merged": "D:\\Desktop\\Repositorio app\\CarnavalDiablo\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_laun_diablo.png",
-        "source": "D:\\Desktop\\Repositorio app\\CarnavalDiablo\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_laun_diablo.png"
-    },
-    {
         "merged": "D:\\Desktop\\Repositorio app\\CarnavalDiablo\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_launcher.png",
         "source": "D:\\Desktop\\Repositorio app\\CarnavalDiablo\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     }

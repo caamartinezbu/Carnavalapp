@@ -3,6 +3,7 @@ package com.controlapp.beto.riosucio;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+import android.support.design.widget.Snackbar;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.widget.LinearLayoutManager;
@@ -16,9 +17,11 @@ import android.support.v7.widget.Toolbar;
 import android.text.Layout;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
+import com.github.clans.fab.FloatingActionButton;
 import com.google.android.gms.appindexing.Action;
 import com.google.android.gms.appindexing.AppIndex;
 import com.google.android.gms.appindexing.Thing;
@@ -58,14 +61,18 @@ public class NavigationDrawer_Home extends AppCompatActivity /*implements Naviga
         inicializarDatos();
         inicializaAdaptador();*/
 
-/**
- FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
- fab.setOnClickListener(new View.OnClickListener() {
-@Override public void onClick(View view) {
-Snackbar.make(view, "Carnaval De Riosucio", Snackbar.LENGTH_LONG)
-.setAction("Action", null).show();
-}
-});**/
+/*
+ FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab3);
+                    fab.setOnClickListener(new View.OnClickListener() {
+                @Override public void onClick(View view) {
+
+                    Intent about = new Intent(NavigationDrawer_Home.this, About.class);
+                    startActivity(about);
+
+               /* Snackbar.make(view, "Carnaval De Riosucio", Snackbar.LENGTH_LONG)
+                .setAction("Action", null).show();*/
+              /*  }
+                });*/
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
