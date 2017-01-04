@@ -78,7 +78,7 @@ public class Cuadrillas extends AppCompatActivity {
         initCollapsingToolbar();
 
         collapsingToolbarLayout = (CollapsingToolbarLayout) findViewById(R.id.collapsing_toolbar);
-        collapsingToolbarLayout.setTitle(getResources().getString(R.string.title_activity_programacion));
+        collapsingToolbarLayout.setTitle(getResources().getString(R.string.title_activity_cuadrillas));
 
 
 
@@ -351,7 +351,7 @@ public class Cuadrillas extends AppCompatActivity {
                     scrollRange = appBarLayout.getTotalScrollRange();
                 }
                 if (scrollRange + verticalOffset == 0) {
-                    collapsingToolbar.setTitle(getString(R.string.title_activity_programacion));
+                    collapsingToolbar.setTitle(getString(R.string.title_activity_cuadrillas));
                     isShow = true;
                 } else if (isShow) {
                     collapsingToolbar.setTitle(" ");

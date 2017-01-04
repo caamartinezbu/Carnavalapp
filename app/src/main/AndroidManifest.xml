@@ -78,7 +78,16 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".NavigationDrawer_Home" />
         </activity>
-        <activity android:name=".AboutActivity"></activity>
+
+        <activity
+            android:name=".AboutActivity"
+            android:parentActivityName=".NavigationDrawer_Home"
+            android:label="Acerca de">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".NavigationDrawer_Home" />
+        </activity>
+
     </application>
 
 </manifest>

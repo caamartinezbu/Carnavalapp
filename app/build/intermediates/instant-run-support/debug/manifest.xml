@@ -93,7 +93,15 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".NavigationDrawer_Home" />
         </activity>
-        <activity android:name="com.controlapp.beto.riosucio.AboutActivity" />
+        <activity
+            android:name="com.controlapp.beto.riosucio.AboutActivity"
+            android:label="Acerca de"
+            android:parentActivityName="com.controlapp.beto.riosucio.NavigationDrawer_Home" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".NavigationDrawer_Home" />
+        </activity>
+
         <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
         <activity
             android:name="com.google.android.gms.ads.AdActivity"

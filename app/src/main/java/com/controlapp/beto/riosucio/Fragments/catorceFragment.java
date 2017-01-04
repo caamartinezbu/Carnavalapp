@@ -135,10 +135,10 @@ public class catorceFragment extends Fragment implements OnMapReadyCallback{
                 .fillColor(Color.parseColor("#CBE6A3")));
 
         // dibujo de tatima partque principal
-        LatLng t1 = new LatLng(5.420370, -75.702817);
-        LatLng t2 = new LatLng(5.420466, -75.702763);
-        LatLng t3 = new LatLng(5.420383, -75.702618);
-        LatLng t4 = new LatLng(5.420282, -75.702669);
+        LatLng t1 = new LatLng(5.420959, -75.702289);
+        LatLng t2 = new LatLng(5.420884, -75.702324);
+        LatLng t3 = new LatLng(5.420825, -75.702214);
+        LatLng t4 = new LatLng(5.420893, -75.702166);
         Polygon tarima_uno = googleMap.addPolygon(new PolygonOptions()
                 .add(t1,t2,t3,t4)
                 .strokeColor(Color.parseColor("#F40503"))

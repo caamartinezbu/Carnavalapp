@@ -2,6 +2,7 @@ package com.controlapp.beto.riosucio;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.design.widget.Snackbar;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -47,8 +48,11 @@ public class PanelFragment extends Fragment {
             @Override
             public void onClick(View v) {
 
-                Intent noticias = new Intent(getActivity(), Noticias.class);
-                startActivity(noticias);
+                Snackbar.make(view, "No estoy activo", Snackbar.LENGTH_LONG)
+                        .setAction("Action", null).show();
+
+               /* Intent noticias = new Intent(getActivity(), Noticias.class);
+                startActivity(noticias);*/
             }
         });
 

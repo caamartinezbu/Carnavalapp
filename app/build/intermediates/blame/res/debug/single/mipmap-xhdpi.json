@@ -1,30 +1,30 @@
 [
     {
-        "merged": "/Users/JuanSe/Desktop/Carnaval/CarnavalDiablo/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_addpuls.png",
-        "source": "/Users/JuanSe/Desktop/Carnaval/CarnavalDiablo/app/src/main/res/mipmap-xhdpi/ic_addpuls.png"
+        "merged": "D:\\Desktop\\Repositorio app\\CarnavalDiablo\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_launcher.png",
+        "source": "D:\\Desktop\\Repositorio app\\CarnavalDiablo\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
-        "merged": "/Users/JuanSe/Desktop/Carnaval/CarnavalDiablo/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_menupunto.png",
-        "source": "/Users/JuanSe/Desktop/Carnaval/CarnavalDiablo/app/src/main/res/mipmap-xhdpi/ic_menupunto.png"
+        "merged": "D:\\Desktop\\Repositorio app\\CarnavalDiablo\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_addpuls.png",
+        "source": "D:\\Desktop\\Repositorio app\\CarnavalDiablo\\app\\src\\main\\res\\mipmap-xhdpi\\ic_addpuls.png"
     },
     {
-        "merged": "/Users/JuanSe/Desktop/Carnaval/CarnavalDiablo/app/build/intermediates/res/merged/debug/mipmap-xhdpi/btn_noticias.png",
-        "source": "/Users/JuanSe/Desktop/Carnaval/CarnavalDiablo/app/src/main/res/mipmap-xhdpi/btn_noticias.png"
+        "merged": "D:\\Desktop\\Repositorio app\\CarnavalDiablo\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\btn_cuadrillas.png",
+        "source": "D:\\Desktop\\Repositorio app\\CarnavalDiablo\\app\\src\\main\\res\\mipmap-xhdpi\\btn_cuadrillas.png"
     },
     {
-        "merged": "/Users/JuanSe/Desktop/Carnaval/CarnavalDiablo/app/build/intermediates/res/merged/debug/mipmap-xhdpi/btn_cuadrillas.png",
-        "source": "/Users/JuanSe/Desktop/Carnaval/CarnavalDiablo/app/src/main/res/mipmap-xhdpi/btn_cuadrillas.png"
+        "merged": "D:\\Desktop\\Repositorio app\\CarnavalDiablo\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_like.png",
+        "source": "D:\\Desktop\\Repositorio app\\CarnavalDiablo\\app\\src\\main\\res\\mipmap-xhdpi\\ic_like.png"
     },
     {
-        "merged": "/Users/JuanSe/Desktop/Carnaval/CarnavalDiablo/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_like.png",
-        "source": "/Users/JuanSe/Desktop/Carnaval/CarnavalDiablo/app/src/main/res/mipmap-xhdpi/ic_like.png"
+        "merged": "D:\\Desktop\\Repositorio app\\CarnavalDiablo\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\btn_noticias.png",
+        "source": "D:\\Desktop\\Repositorio app\\CarnavalDiablo\\app\\src\\main\\res\\mipmap-xhdpi\\btn_noticias.png"
     },
     {
-        "merged": "/Users/JuanSe/Desktop/Carnaval/CarnavalDiablo/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_launcher.png",
-        "source": "/Users/JuanSe/Desktop/Carnaval/CarnavalDiablo/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+        "merged": "D:\\Desktop\\Repositorio app\\CarnavalDiablo\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\btn_programacion.png",
+        "source": "D:\\Desktop\\Repositorio app\\CarnavalDiablo\\app\\src\\main\\res\\mipmap-xhdpi\\btn_programacion.png"
     },
     {
-        "merged": "/Users/JuanSe/Desktop/Carnaval/CarnavalDiablo/app/build/intermediates/res/merged/debug/mipmap-xhdpi/btn_programacion.png",
-        "source": "/Users/JuanSe/Desktop/Carnaval/CarnavalDiablo/app/src/main/res/mipmap-xhdpi/btn_programacion.png"
+        "merged": "D:\\Desktop\\Repositorio app\\CarnavalDiablo\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_menupunto.png",
+        "source": "D:\\Desktop\\Repositorio app\\CarnavalDiablo\\app\\src\\main\\res\\mipmap-xhdpi\\ic_menupunto.png"
     }
 ]

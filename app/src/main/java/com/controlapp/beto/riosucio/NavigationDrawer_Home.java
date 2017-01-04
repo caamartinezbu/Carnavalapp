@@ -66,7 +66,7 @@ public class NavigationDrawer_Home extends AppCompatActivity /*implements Naviga
                     fab.setOnClickListener(new View.OnClickListener() {
                 @Override public void onClick(View view) {
 
-                    Intent about = new Intent(NavigationDrawer_Home.this, About.class);
+                    Intent about = new Intent(NavigationDrawer_Home.this, .class);
                     startActivity(about);
 
                /* Snackbar.make(view, "Carnaval De Riosucio", Snackbar.LENGTH_LONG)

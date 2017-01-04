@@ -1,10 +1,13 @@
 package com.controlapp.beto.riosucio.Fragments;
 
+import android.Manifest;
 import android.app.Fragment;
+import android.content.pm.PackageManager;
 import android.graphics.Color;
 import android.os.Build;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
+import android.support.v4.app.ActivityCompat;
 import android.view.InflateException;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -27,6 +30,7 @@ import com.google.android.gms.maps.model.PolylineOptions;
  */
 
 public class CuartoFragment extends Fragment implements OnMapReadyCallback{
+    private final static int MY_PERMISSION_FINE_LOCATION = 101;
 
     private static View view;
     @Nullable
@@ -63,6 +67,15 @@ public class CuartoFragment extends Fragment implements OnMapReadyCallback{
 
     @Override
     public void onMapReady(GoogleMap googleMap) {
+
+        if (ActivityCompat.checkSelfPermission(this.getActivity(), Manifest.permission.ACCESS_FINE_LOCATION) == PackageManager.PERMISSION_GRANTED ) {
+            googleMap.setMyLocationEnabled(true);
+
+        }else{
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+                requestPermissions(new String[]{Manifest.permission.ACCESS_FINE_LOCATION},MY_PERMISSION_FINE_LOCATION);
+            }
+        }
 
 
 
@@ -134,10 +147,10 @@ public class CuartoFragment extends Fragment implements OnMapReadyCallback{
                 .fillColor(Color.parseColor("#CBE6A3")));
 
         // dibujo de tatima partque principal
-        LatLng t1 = new LatLng(5.420370, -75.702817);
-        LatLng t2 = new LatLng(5.420466, -75.702763);
-        LatLng t3 = new LatLng(5.420383, -75.702618);
-        LatLng t4 = new LatLng(5.420282, -75.702669);
+        LatLng t1 = new LatLng(5.420959, -75.702289);
+        LatLng t2 = new LatLng(5.420884, -75.702324);
+        LatLng t3 = new LatLng(5.420825, -75.702214);
+        LatLng t4 = new LatLng(5.420893, -75.702166);
         Polygon tarima_uno = googleMap.addPolygon(new PolygonOptions()
                 .add(t1,t2,t3,t4)
                 .strokeColor(Color.parseColor("#F40503"))

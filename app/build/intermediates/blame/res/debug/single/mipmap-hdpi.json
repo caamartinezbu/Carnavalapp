@@ -1,18 +1,18 @@
 [
     {
-        "merged": "/Users/JuanSe/Desktop/Carnaval/CarnavalDiablo/app/build/intermediates/res/merged/debug/mipmap-hdpi/btn_noticias.png",
-        "source": "/Users/JuanSe/Desktop/Carnaval/CarnavalDiablo/app/src/main/res/mipmap-hdpi/btn_noticias.png"
+        "merged": "D:\\Desktop\\Repositorio app\\CarnavalDiablo\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\btn_cuadrillas.png",
+        "source": "D:\\Desktop\\Repositorio app\\CarnavalDiablo\\app\\src\\main\\res\\mipmap-hdpi\\btn_cuadrillas.png"
     },
     {
-        "merged": "/Users/JuanSe/Desktop/Carnaval/CarnavalDiablo/app/build/intermediates/res/merged/debug/mipmap-hdpi/btn_programacion.png",
-        "source": "/Users/JuanSe/Desktop/Carnaval/CarnavalDiablo/app/src/main/res/mipmap-hdpi/btn_programacion.png"
+        "merged": "D:\\Desktop\\Repositorio app\\CarnavalDiablo\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher.png",
+        "source": "D:\\Desktop\\Repositorio app\\CarnavalDiablo\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },
     {
-        "merged": "/Users/JuanSe/Desktop/Carnaval/CarnavalDiablo/app/build/intermediates/res/merged/debug/mipmap-hdpi/btn_cuadrillas.png",
-        "source": "/Users/JuanSe/Desktop/Carnaval/CarnavalDiablo/app/src/main/res/mipmap-hdpi/btn_cuadrillas.png"
+        "merged": "D:\\Desktop\\Repositorio app\\CarnavalDiablo\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\btn_programacion.png",
+        "source": "D:\\Desktop\\Repositorio app\\CarnavalDiablo\\app\\src\\main\\res\\mipmap-hdpi\\btn_programacion.png"
     },
     {
-        "merged": "/Users/JuanSe/Desktop/Carnaval/CarnavalDiablo/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_launcher.png",
-        "source": "/Users/JuanSe/Desktop/Carnaval/CarnavalDiablo/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+        "merged": "D:\\Desktop\\Repositorio app\\CarnavalDiablo\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\btn_noticias.png",
+        "source": "D:\\Desktop\\Repositorio app\\CarnavalDiablo\\app\\src\\main\\res\\mipmap-hdpi\\btn_noticias.png"
     }
 ]
