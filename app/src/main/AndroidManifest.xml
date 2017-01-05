@@ -16,7 +16,7 @@
         android:name="android.support.multidex.MultiDexApplication">
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyAvu_oP1ktqLP3SyyAyqC7KwrPDiuU-O70" />
+            android:value="AIzaSyBZuj_r1VVEsQcx1zNFT3--nXj623QYjmY" />
 
         <activity android:name=".SplashScreen">
             <intent-filter>
