@@ -264,7 +264,6 @@ public class DefaultEvent  extends AppCompatActivity {
                     fishData.nombre= json_data.getString("nombre");
                 }
 
-                System.out.println( fishData.link_imagen + "---------------------------------");
                 Glide.with(DefaultEvent.this).load("http://controlapp.com.co/carnaval/images/eventos/" + fishData.link_imagen).into((ImageView) findViewById(R.id.backdrop));
                 TextView eventName = (TextView) findViewById(R.id.eventName);
                 eventName.setText(fishData.nombre);

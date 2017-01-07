@@ -1,19 +1,16 @@
 package com.controlapp.beto.riosucio;
 
 import android.app.ProgressDialog;
-import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Build;
 import android.os.Bundle;
 import android.support.design.widget.AppBarLayout;
 import android.support.design.widget.CollapsingToolbarLayout;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.util.TypedValue;
-import android.view.View;
 import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
@@ -40,28 +37,21 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by unalman on 1/01/2017.
+ * Created by unalman on 3/01/2017.
  */
 
-public class Noticias extends AppCompatActivity {
-
+public class DefaultNew extends AppCompatActivity {
     private CollapsingToolbarLayout collapsingToolbarLayout = null;
 
     // CONNECTION_TIMEOUT and READ_TIMEOUT are in milliseconds
     public static final int CONNECTION_TIMEOUT = 10000;
     public static final int READ_TIMEOUT = 15000;
-    private RecyclerView noticiasRecicler;
-    private AdapterNoticia mAdapter;
-
-
+    private String eventId;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.view_news);
-
-        //Make call to AsyncTask
-        new AsyncLogin().execute();
+        setContentView(R.layout.activity_defaultevento);
 
         Toolbar toolbar;
         toolbar = (Toolbar) findViewById(R.id.toolbar);
@@ -73,44 +63,60 @@ public class Noticias extends AppCompatActivity {
         collapsingToolbarLayout.setTitle(getResources().getString(R.string.title_activity_programacion));
 
 
-
         toolbarTextAppernce();
 
 
-
-
-
-
         TypedValue typedValueColorPrimaryDark = new TypedValue();
-        Noticias.this.getTheme().resolveAttribute(R.attr.colorPrimaryDark, typedValueColorPrimaryDark, true);
+        DefaultNew.this.getTheme().resolveAttribute(R.attr.colorPrimaryDark, typedValueColorPrimaryDark, true);
         final int colorPrimaryDark = typedValueColorPrimaryDark.data;
         if (Build.VERSION.SDK_INT >= 21) {
             getWindow().setStatusBarColor(colorPrimaryDark);
         }
 
+        Bundle extras = getIntent().getExtras();
+        if (extras != null) {
+            eventId = extras.get("event_id").toString();
+            new AsyncLogin().execute();
 
-        try {
-
-            Glide.with(this).load("http://controlapp.com.co/test/images/evento2.jpg").into((ImageView) findViewById(R.id.backdrop));
-           // Glide.with(this).load(R.drawable.evento).into((ImageView) findViewById(R.id.backdrop));
-        } catch (Exception e) {
-            e.printStackTrace();
         }
 
-
     }
-
-
-
 
     private void toolbarTextAppernce() {
         collapsingToolbarLayout.setCollapsedTitleTextAppearance(R.style.collapsedappbar);
         collapsingToolbarLayout.setExpandedTitleTextAppearance(R.style.expandedappbar);
     }
+    private void initCollapsingToolbar() {
+        final CollapsingToolbarLayout collapsingToolbar =
+                (CollapsingToolbarLayout) findViewById(R.id.collapsing_toolbar);
+        collapsingToolbar.setTitle(" ");
+        AppBarLayout appBarLayout = (AppBarLayout) findViewById(R.id.appbar);
+        appBarLayout.setExpanded(true);
+
+        // hiding & showing the title when toolbar expanded & collapsed
+        appBarLayout.addOnOffsetChangedListener(new AppBarLayout.OnOffsetChangedListener() {
+            boolean isShow = false;
+            int scrollRange = -1;
+
+            @Override
+            public void onOffsetChanged(AppBarLayout appBarLayout, int verticalOffset) {
+                if (scrollRange == -1) {
+                    scrollRange = appBarLayout.getTotalScrollRange();
+                }
+                if (scrollRange + verticalOffset == 0) {
+                    collapsingToolbar.setTitle(getString(R.string.title_activity_programacion));
+                    isShow = true;
+                } else if (isShow) {
+                    collapsingToolbar.setTitle(" ");
+                    isShow = false;
+                }
+            }
+        });
+    }
 
 
     private class AsyncLogin extends AsyncTask<String, String, String> {
-        ProgressDialog pdLoading = new ProgressDialog(Noticias.this);
+        ProgressDialog pdLoading = new ProgressDialog(DefaultNew.this);
         HttpURLConnection conn;
         URL url = null;
 
@@ -172,7 +178,8 @@ public class Noticias extends AppCompatActivity {
                 conn.setDoOutput(true);
                 List<NameValuePair> parameters = new ArrayList<NameValuePair>();
                 parameters.add(new BasicNameValuePair("token", "n8Qhi3CImB8nb9ZXIZ9gcPb4KMlgUd5g"));
-                parameters.add(new BasicNameValuePair("action", "SELECT_ALL_NEWS"));
+                parameters.add(new BasicNameValuePair("action", "SELECT_EVENT"));
+                parameters.add(new BasicNameValuePair("event_id", eventId));
                 OutputStream os = conn.getOutputStream();
                 BufferedWriter writer = new BufferedWriter(
                         new OutputStreamWriter(os, "UTF-8"));
@@ -201,8 +208,8 @@ public class Noticias extends AppCompatActivity {
                     StringBuilder result = new StringBuilder();
                     String line;
 
-
                     while ((line = reader.readLine()) != null) {
+
                         result.append(line);
                     }
 
@@ -228,9 +235,8 @@ public class Noticias extends AppCompatActivity {
         protected void onPostExecute(String result) {
 
             //this method will be running on UI thread
-
             pdLoading.dismiss();
-            List<Noticia> data=new ArrayList<>();
+            List<Event> data=new ArrayList<>();
 
             pdLoading.dismiss();
             try {
@@ -238,76 +244,39 @@ public class Noticias extends AppCompatActivity {
                 JSONArray jArray = new JSONArray(result);
 
                 // Extract data from json and store into ArrayList as class objects
+                Event fishData = new Event();
                 for(int i=0;i<jArray.length();i++){
                     JSONObject json_data = jArray.getJSONObject(i);
-                    Noticia newData = new Noticia();
-                    newData.setId(Integer.parseInt(json_data.getString("id")));
-                    newData.setTitular(json_data.getString("titular"));
-                    newData.setContenido(json_data.getString("contenido"));
-                    newData.setLink_imagen(json_data.getString("link_imagen"));
-                    data.add(newData);
+                    fishData.id= json_data.getString("id");
+                    fishData.fecha= json_data.getString("fecha");
+                    fishData.hora_inicio= json_data.getString("hora_inicio");
+                    fishData.hora_final= json_data.getString("hora_final");
+                    fishData.tipo= json_data.getString("tipo");
+                    fishData.lugar= json_data.getString("lugar");
+                    fishData.descripcion= json_data.getString("descripcion");
+                    fishData.link_imagen= json_data.getString("link_imagen");
+                    fishData.nombre= json_data.getString("nombre");
                 }
 
-                // Setup and Handover data to recyclerview
-                noticiasRecicler = (RecyclerView)findViewById(R.id.fishPriceList);
-
-                noticiasRecicler.addOnItemTouchListener(
-                        new RecyclerNewItemClickListener(Noticias.this, noticiasRecicler ,new RecyclerNewItemClickListener.OnItemClickListener() {
-                            @Override public void onItemClick(View view, int position) {
-
-                                Intent visual = new Intent(Noticias.this, DefaultNew.class);
-                                visual.putExtra("event_id", position + 1);
-                                startActivity(visual);
-
-
-
-                            }
-
-                            @Override public void onLongItemClick(View view, int position) {
-                                // do whatever
-                            }
-                        })
-                );
-
-                mAdapter = new AdapterNoticia(Noticias.this, data);
-                noticiasRecicler.setAdapter(mAdapter);
-                noticiasRecicler.setLayoutManager(new LinearLayoutManager(Noticias.this));
+                Glide.with(DefaultNew.this).load("http://controlapp.com.co/carnaval/images/eventos/" + fishData.link_imagen).into((ImageView) findViewById(R.id.backdrop));
+                TextView eventName = (TextView) findViewById(R.id.eventName);
+                eventName.setText(fishData.nombre);
+                TextView eventDate = (TextView) findViewById(R.id.eventDate);
+                eventDate.setText(fishData.fecha);
+                TextView eventHour = (TextView) findViewById(R.id.eventHour);
+                eventHour.setText(fishData.hora_inicio + " - " + fishData.hora_final);
+                TextView eventPlace = (TextView) findViewById(R.id.eventPlace);
+                eventPlace.setText(fishData.lugar);
+                TextView eventDesc = (TextView) findViewById(R.id.eventDesc);
+                eventDesc.setText(fishData.descripcion);
 
             } catch (JSONException e) {
-                Toast.makeText(Noticias.this, "Por favor  conecte su Wifi o plan de datos", Toast.LENGTH_LONG).show();
+                Toast.makeText(DefaultNew.this, "Por favor  conecte su Wifi o plan de datos", Toast.LENGTH_LONG).show();
             }
 
         }
 
     }
-
-
-
-    private void initCollapsingToolbar() {
-        final CollapsingToolbarLayout collapsingToolbar =
-                (CollapsingToolbarLayout) findViewById(R.id.collapsing_toolbar);
-        collapsingToolbar.setTitle(" ");
-        AppBarLayout appBarLayout = (AppBarLayout) findViewById(R.id.appbar);
-        appBarLayout.setExpanded(true);
-
-        // hiding & showing the title when toolbar expanded & collapsed
-        appBarLayout.addOnOffsetChangedListener(new AppBarLayout.OnOffsetChangedListener() {
-            boolean isShow = false;
-            int scrollRange = -1;
-
-            @Override
-            public void onOffsetChanged(AppBarLayout appBarLayout, int verticalOffset) {
-                if (scrollRange == -1) {
-                    scrollRange = appBarLayout.getTotalScrollRange();
-                }
-                if (scrollRange + verticalOffset == 0) {
-                    collapsingToolbar.setTitle(getString(R.string.title_activity_programacion));
-                    isShow = true;
-                } else if (isShow) {
-                    collapsingToolbar.setTitle(" ");
-                    isShow = false;
-                }
-            }
-        });
-    }
 }
+
+
