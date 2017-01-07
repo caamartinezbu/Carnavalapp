@@ -48,11 +48,11 @@ public class PanelFragment extends Fragment {
             @Override
             public void onClick(View v) {
 
-                Snackbar.make(view, "No estoy activo", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
+                //Snackbar.make(view, "No estoy activo", Snackbar.LENGTH_LONG)
+                //        .setAction("Action", null).show();
 
-               /* Intent noticias = new Intent(getActivity(), Noticias.class);
-                startActivity(noticias);*/
+                Intent noticias = new Intent(getActivity(), Noticias.class);
+                startActivity(noticias);
             }
         });
 
