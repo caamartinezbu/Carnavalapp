@@ -9,16 +9,14 @@
     card_view:cardCornerRadius="4dp"
     android:layout_marginTop="@dimen/activity_horizontal_cardview"
     android:layout_marginRight="@dimen/padding_tarjetaRL"
-    android:layout_marginLeft="@dimen/padding_tarjetaRL"
-    android:background="#ccc"
-    >
+    android:layout_marginLeft="@dimen/padding_tarjetaRL">
 
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="horizontal"
-        android:background="#EFEFEF">
+        android:background="#fff">
 
         <ImageView
             android:layout_width="120dp"
@@ -45,6 +43,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginLeft="16dp"
                 android:layout_marginBottom="10dp"
+                android:textColor="@color/black"
                 />
 
             <LinearLayout
@@ -70,7 +69,6 @@
                     android:text="Hora"
                     android:padding="5dp"
                     android:id="@+id/textCapitan"
-                    android:textColor="@color/colorAccent"
                     android:layout_alignParentRight="true"
                     android:layout_marginLeft="10dp"
                     android:layout_marginRight="5dp"
@@ -98,7 +96,7 @@
                     android:layout_marginLeft="10dp"
                     android:layout_below="@id/textSize"
                     android:layout_toRightOf="@id/ivFish"
-                    android:textColor="#000"/>
+                   />
             </LinearLayout>
 
 

@@ -1,18 +1,18 @@
 [
     {
-        "merged": "/Users/JuanSe/Desktop/CAPP/CarnavalDiablo/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/btn_noticias.png",
-        "source": "/Users/JuanSe/Desktop/CAPP/CarnavalDiablo/app/src/main/res/mipmap-xxhdpi/btn_noticias.png"
+        "merged": "D:\\Desktop\\Repositorio app\\CarnavalDiablo\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\btn_noticias.png",
+        "source": "D:\\Desktop\\Repositorio app\\CarnavalDiablo\\app\\src\\main\\res\\mipmap-xxhdpi\\btn_noticias.png"
     },
     {
-        "merged": "/Users/JuanSe/Desktop/CAPP/CarnavalDiablo/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_launcher.png",
-        "source": "/Users/JuanSe/Desktop/CAPP/CarnavalDiablo/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+        "merged": "D:\\Desktop\\Repositorio app\\CarnavalDiablo\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher.png",
+        "source": "D:\\Desktop\\Repositorio app\\CarnavalDiablo\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "/Users/JuanSe/Desktop/CAPP/CarnavalDiablo/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/btn_programacion.png",
-        "source": "/Users/JuanSe/Desktop/CAPP/CarnavalDiablo/app/src/main/res/mipmap-xxhdpi/btn_programacion.png"
+        "merged": "D:\\Desktop\\Repositorio app\\CarnavalDiablo\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\btn_cuadrillas.png",
+        "source": "D:\\Desktop\\Repositorio app\\CarnavalDiablo\\app\\src\\main\\res\\mipmap-xxhdpi\\btn_cuadrillas.png"
     },
     {
-        "merged": "/Users/JuanSe/Desktop/CAPP/CarnavalDiablo/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/btn_cuadrillas.png",
-        "source": "/Users/JuanSe/Desktop/CAPP/CarnavalDiablo/app/src/main/res/mipmap-xxhdpi/btn_cuadrillas.png"
+        "merged": "D:\\Desktop\\Repositorio app\\CarnavalDiablo\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\btn_programacion.png",
+        "source": "D:\\Desktop\\Repositorio app\\CarnavalDiablo\\app\\src\\main\\res\\mipmap-xxhdpi\\btn_programacion.png"
     }
 ]

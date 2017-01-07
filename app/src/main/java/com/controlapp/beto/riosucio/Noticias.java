@@ -70,7 +70,7 @@ public class Noticias extends AppCompatActivity {
         initCollapsingToolbar();
 
         collapsingToolbarLayout = (CollapsingToolbarLayout) findViewById(R.id.collapsing_toolbar);
-        collapsingToolbarLayout.setTitle(getResources().getString(R.string.title_activity_programacion));
+        collapsingToolbarLayout.setTitle(getResources().getString(R.string.title_activity_news));
 
 
 
@@ -91,7 +91,7 @@ public class Noticias extends AppCompatActivity {
 
         try {
 
-            Glide.with(this).load("http://controlapp.com.co/test/images/evento2.jpg").into((ImageView) findViewById(R.id.backdrop));
+            Glide.with(this).load("http://controlapp.com.co/test/images/noticias.jpg").into((ImageView) findViewById(R.id.backdrop));
            // Glide.with(this).load(R.drawable.evento).into((ImageView) findViewById(R.id.backdrop));
         } catch (Exception e) {
             e.printStackTrace();
@@ -301,7 +301,7 @@ public class Noticias extends AppCompatActivity {
                     scrollRange = appBarLayout.getTotalScrollRange();
                 }
                 if (scrollRange + verticalOffset == 0) {
-                    collapsingToolbar.setTitle(getString(R.string.title_activity_programacion));
+                    collapsingToolbar.setTitle(getString(R.string.title_activity_news));
                     isShow = true;
                 } else if (isShow) {
                     collapsingToolbar.setTitle(" ");

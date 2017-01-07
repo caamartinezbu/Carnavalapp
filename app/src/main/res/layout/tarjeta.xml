@@ -10,7 +10,7 @@
     android:layout_marginTop="@dimen/activity_horizontal_cardview"
     android:layout_marginRight="@dimen/padding_tarjetaRL"
     android:layout_marginLeft="@dimen/padding_tarjetaRL"
-    android:background="#ccc"
+
     >
 
 
@@ -18,7 +18,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="horizontal"
-        android:background="#EFEFEF">
+        android:background="#fff">
 
         <ImageView
             android:layout_width="73dp"
@@ -40,6 +40,7 @@
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:text="Evento"
+                android:textColor="@color/black"
                 android:id="@+id/textFishName"
                 android:layout_marginTop="10dp"
                 android:layout_marginLeft="16dp"
@@ -62,12 +63,11 @@
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:text="Fecha"
                     android:id="@+id/textSize"
-                    android:padding="5dp"
                     android:layout_marginLeft="10dp"
                     android:layout_below="@id/textFishName"
                     android:layout_toRightOf="@id/ivFish"
                     android:layout_toEndOf="@id/ivFish"
-                    android:textColor="#000"/></LinearLayout>
+                    /></LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -89,9 +89,7 @@
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:text="Hora"
-                    android:padding="5dp"
                     android:id="@+id/textPrice"
-                    android:textColor="@color/colorAccent"
                     android:layout_alignParentRight="true"
                     android:layout_marginLeft="10dp"
                     android:layout_marginRight="5dp"
@@ -113,11 +111,10 @@
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:text="Lugar"
                     android:id="@+id/textType"
-                    android:padding="5dp"
                     android:layout_marginLeft="10dp"
                     android:layout_below="@id/textSize"
                     android:layout_toRightOf="@id/ivFish"
-                    android:textColor="#000"/>
+                    />
             </LinearLayout>
 
 

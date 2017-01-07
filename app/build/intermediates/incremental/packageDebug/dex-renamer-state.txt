@@ -1,7 +1,7 @@
-#Fri Jan 06 21:48:48 COT 2017
-base.0=/Users/JuanSe/Desktop/CAPP/CarnavalDiablo/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_4e5f5d03a3f776fd1e4f6d60a608c6aa5b44e3c7
+#Sat Jan 07 15:07:21 COT 2017
+base.0=D\:\\Desktop\\Repositorio app\\CarnavalDiablo\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_23d15e4be0b04c4eaedd18305de07ea4098a6158
 renamed.1=classes.dex
 renamed.0=classes2.dex
-file.1=/Users/JuanSe/Desktop/CAPP/CarnavalDiablo/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_b313f9fb121afc4ac969b2f1e6742a55935ddcbc/classes.dex
-base.1=/Users/JuanSe/Desktop/CAPP/CarnavalDiablo/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_b313f9fb121afc4ac969b2f1e6742a55935ddcbc
-file.0=/Users/JuanSe/Desktop/CAPP/CarnavalDiablo/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_4e5f5d03a3f776fd1e4f6d60a608c6aa5b44e3c7/classes.dex
+file.1=D\:\\Desktop\\Repositorio app\\CarnavalDiablo\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_bb34575dad814cea7e20036fb1fc31cd058ed0a3\\classes.dex
+base.1=D\:\\Desktop\\Repositorio app\\CarnavalDiablo\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_bb34575dad814cea7e20036fb1fc31cd058ed0a3
+file.0=D\:\\Desktop\\Repositorio app\\CarnavalDiablo\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_23d15e4be0b04c4eaedd18305de07ea4098a6158\\classes.dex
