@@ -51,7 +51,7 @@ public class DefaultNew extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_defaultevento);
+        setContentView(R.layout.activity_defaultnew);
 
         Toolbar toolbar;
         toolbar = (Toolbar) findViewById(R.id.toolbar);
@@ -178,8 +178,8 @@ public class DefaultNew extends AppCompatActivity {
                 conn.setDoOutput(true);
                 List<NameValuePair> parameters = new ArrayList<NameValuePair>();
                 parameters.add(new BasicNameValuePair("token", "n8Qhi3CImB8nb9ZXIZ9gcPb4KMlgUd5g"));
-                parameters.add(new BasicNameValuePair("action", "SELECT_EVENT"));
-                parameters.add(new BasicNameValuePair("event_id", eventId));
+                parameters.add(new BasicNameValuePair("action", "SELECT_NEW"));
+                parameters.add(new BasicNameValuePair("noticia_id", eventId));
                 OutputStream os = conn.getOutputStream();
                 BufferedWriter writer = new BufferedWriter(
                         new OutputStreamWriter(os, "UTF-8"));
@@ -236,7 +236,7 @@ public class DefaultNew extends AppCompatActivity {
 
             //this method will be running on UI thread
             pdLoading.dismiss();
-            List<Event> data=new ArrayList<>();
+            List<Noticia> data=new ArrayList<>();
 
             pdLoading.dismiss();
             try {
@@ -244,31 +244,21 @@ public class DefaultNew extends AppCompatActivity {
                 JSONArray jArray = new JSONArray(result);
 
                 // Extract data from json and store into ArrayList as class objects
-                Event fishData = new Event();
+                Noticia newData = new Noticia();
                 for(int i=0;i<jArray.length();i++){
                     JSONObject json_data = jArray.getJSONObject(i);
-                    fishData.id= json_data.getString("id");
-                    fishData.fecha= json_data.getString("fecha");
-                    fishData.hora_inicio= json_data.getString("hora_inicio");
-                    fishData.hora_final= json_data.getString("hora_final");
-                    fishData.tipo= json_data.getString("tipo");
-                    fishData.lugar= json_data.getString("lugar");
-                    fishData.descripcion= json_data.getString("descripcion");
-                    fishData.link_imagen= json_data.getString("link_imagen");
-                    fishData.nombre= json_data.getString("nombre");
+                    newData.setId(Integer.parseInt(json_data.getString("id")));
+                    newData.setTitular(json_data.getString("titular"));
+                    newData.setContenido(json_data.getString("contenido"));
+                    newData.setLink_imagen(json_data.getString("link_imagen"));
                 }
 
-                Glide.with(DefaultNew.this).load("http://controlapp.com.co/carnaval/images/eventos/" + fishData.link_imagen).into((ImageView) findViewById(R.id.backdrop));
-                TextView eventName = (TextView) findViewById(R.id.eventName);
-                eventName.setText(fishData.nombre);
-                TextView eventDate = (TextView) findViewById(R.id.eventDate);
-                eventDate.setText(fishData.fecha);
-                TextView eventHour = (TextView) findViewById(R.id.eventHour);
-                eventHour.setText(fishData.hora_inicio + " - " + fishData.hora_final);
-                TextView eventPlace = (TextView) findViewById(R.id.eventPlace);
-                eventPlace.setText(fishData.lugar);
-                TextView eventDesc = (TextView) findViewById(R.id.eventDesc);
-                eventDesc.setText(fishData.descripcion);
+                Glide.with(DefaultNew.this).load("http://controlapp.com.co/carnaval/images/noticias/" + newData.getLink_imagen()).into((ImageView) findViewById(R.id.backdrop));
+                TextView newtitle = (TextView) findViewById(R.id.newtitle);
+                newtitle.setText(newData.getTitular());
+                TextView eventDate = (TextView) findViewById(R.id.newCont);
+                eventDate.setText(newData.getContenido());
+
 
             } catch (JSONException e) {
                 Toast.makeText(DefaultNew.this, "Por favor  conecte su Wifi o plan de datos", Toast.LENGTH_LONG).show();
