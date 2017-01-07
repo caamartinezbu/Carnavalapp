@@ -45,6 +45,7 @@ public class AdapterNoticia extends RecyclerView.Adapter<RecyclerView.ViewHolder
         MyHolder myHolder= (MyHolder) holder;
         Noticia current=data.get(position);
         myHolder.textNombre.setText(current.getTitular());
+        myHolder.textFecha.setText(current.getFecha());
         //myHolder.textCapitan.setText(current.getNombreCapitan());//size
         //myHolder.textCiudad.setText(current.getCiudad());
         Glide.with(context).load("http://controlapp.com.co/carnaval/images/noticias/" + current.getLink_imagen())
@@ -67,12 +68,14 @@ public class AdapterNoticia extends RecyclerView.Adapter<RecyclerView.ViewHolder
 
         TextView textNombre;
         ImageView imvPhoto;
+        TextView textFecha;
         
         // create constructor to get widget reference
         public MyHolder(View itemView) {
             super(itemView);
             textNombre= (TextView) itemView.findViewById(R.id.textNombre);
             imvPhoto= (ImageView) itemView.findViewById(R.id.imvPhoto);
+            textFecha = (TextView) itemView.findViewById(R.id.textFecha_news);
         }
 
     }

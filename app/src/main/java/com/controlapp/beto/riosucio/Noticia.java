@@ -9,6 +9,7 @@ public class Noticia {
     private int id;
     private String titular;
     private String contenido;
+    private String fecha;
     private String link_imagen;
 
     public Noticia() {
@@ -37,6 +38,14 @@ public class Noticia {
 
     public void setContenido(String contenido) {
         this.contenido = contenido;
+    }
+
+    public String getFecha() {
+        return fecha;
+    }
+
+    public void setFecha(String fecha) {
+        this.fecha = fecha;
     }
 
     public String getLink_imagen() {

@@ -250,6 +250,7 @@ public class DefaultNew extends AppCompatActivity {
                     newData.setId(Integer.parseInt(json_data.getString("id")));
                     newData.setTitular(json_data.getString("titular"));
                     newData.setContenido(json_data.getString("contenido"));
+                    newData.setFecha(json_data.getString("fecha"));
                     newData.setLink_imagen(json_data.getString("link_imagen"));
                 }
 
@@ -258,6 +259,8 @@ public class DefaultNew extends AppCompatActivity {
                 newtitle.setText(newData.getTitular());
                 TextView eventDate = (TextView) findViewById(R.id.newCont);
                 eventDate.setText(newData.getContenido());
+                TextView newDate = (TextView) findViewById(R.id.txtDate);
+                newDate.setText(newData.getFecha());
 
 
             } catch (JSONException e) {

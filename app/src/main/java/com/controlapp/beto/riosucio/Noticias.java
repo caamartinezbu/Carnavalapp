@@ -244,6 +244,7 @@ public class Noticias extends AppCompatActivity {
                     newData.setId(Integer.parseInt(json_data.getString("id")));
                     newData.setTitular(json_data.getString("titular"));
                     newData.setContenido(json_data.getString("contenido"));
+                    newData.setFecha(json_data.getString("fecha"));
                     newData.setLink_imagen(json_data.getString("link_imagen"));
                     data.add(newData);
                 }

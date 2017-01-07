@@ -115,6 +115,15 @@
 
             <TextView
                 android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtDate"
+                android:text="Fecha"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:padding="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
                 android:layout_height="1dp"
                 android:background="#ccc"
                 android:layout_margin="30dp"
