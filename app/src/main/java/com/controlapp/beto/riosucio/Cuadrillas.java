@@ -55,6 +55,7 @@ public class Cuadrillas extends AppCompatActivity {
     public static final int READ_TIMEOUT = 15000;
     private RecyclerView mRVFishPrice;
     private AdapterCuadrilla mAdapter;
+    List<Cuadrilla> data=new ArrayList<>();
 
 
     /**
@@ -117,6 +118,7 @@ public class Cuadrillas extends AppCompatActivity {
         ProgressDialog pdLoading = new ProgressDialog(Cuadrillas.this);
         HttpURLConnection conn;
         URL url = null;
+
 
         @Override
         protected void onPreExecute() {
@@ -234,7 +236,7 @@ public class Cuadrillas extends AppCompatActivity {
             //this method will be running on UI thread
 
             pdLoading.dismiss();
-            List<Cuadrilla> data=new ArrayList<>();
+
 
             pdLoading.dismiss();
             try {
@@ -249,22 +251,32 @@ public class Cuadrillas extends AppCompatActivity {
                     cuadrilla.setNombre(json_data.getString("nombre"));
                     cuadrilla.setNombreCapitan(json_data.getString("nombre_capitan"));
                     cuadrilla.setCiudad(json_data.getString("ciudad"));
+                    cuadrilla.setEsta_activo( (Integer.parseInt(json_data.getString("esta_activa"))) == 1);
                     cuadrilla.setLinkImagen(json_data.getString("link_imagen"));
                     data.add(cuadrilla);
+
                 }
 
                 // Setup and Handover data to recyclerview
                 mRVFishPrice = (RecyclerView)findViewById(R.id.fishPriceList);
 
-                /*mRVFishPrice.addOnItemTouchListener(
+                mRVFishPrice.addOnItemTouchListener(
                         new RecyclerItemClickListener(Cuadrillas.this, mRVFishPrice ,new RecyclerItemClickListener.OnItemClickListener() {
                             @Override public void onItemClick(View view, int position) {
 
-                                Intent visual = new Intent(Cuadrillas.this, DefaultEvent.class);
-                                visual.putExtra("event_id", position + 1);
-                                startActivity(visual);
+                                for(int index=0; index<data.size(); index++) {
+                                    if (Integer.parseInt(data.get(index).getId()) == (position + 1)){
 
+                                        if (data.get(index).esta_activo()) {
+                                            Intent visual = new Intent(Cuadrillas.this, DefaultCuadrilla.class);
+                                            visual.putExtra("event_id", position + 1);
+                                            startActivity(visual);
+                                        } else {
+                                            Toast.makeText(Cuadrillas.this, "Aún no está activa esta cuadrilla", Toast.LENGTH_SHORT).show();
 
+                                        }
+                                    }
+                                }
                             }
 
                             @Override public void onLongItemClick(View view, int position) {
@@ -272,7 +284,7 @@ public class Cuadrillas extends AppCompatActivity {
                             }
                         })
                 );
-                */
+
 
                 mAdapter = new AdapterCuadrilla(Cuadrillas.this, data);
                 mRVFishPrice.setAdapter(mAdapter);

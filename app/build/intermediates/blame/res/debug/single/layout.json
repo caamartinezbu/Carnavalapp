@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/Users/JuanSe/Desktop/CAPP/CarnavalDiablo/app/build/intermediates/res/merged/debug/layout/activity_defaultcuadrilla.xml",
+        "source": "/Users/JuanSe/Desktop/CAPP/CarnavalDiablo/app/src/main/res/layout/activity_defaultcuadrilla.xml"
+    },
+    {
         "merged": "/Users/JuanSe/Desktop/CAPP/CarnavalDiablo/app/build/intermediates/res/merged/debug/layout/abc_search_view.xml",
         "source": "/Users/JuanSe/Desktop/CAPP/CarnavalDiablo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_search_view.xml"
     },
@@ -36,12 +40,12 @@
         "source": "/Users/JuanSe/Desktop/CAPP/CarnavalDiablo/app/src/main/res/layout/fragment_trece.xml"
     },
     {
-        "merged": "/Users/JuanSe/Desktop/CAPP/CarnavalDiablo/app/build/intermediates/res/merged/debug/layout/nav_header_navigation_drawer__home.xml",
-        "source": "/Users/JuanSe/Desktop/CAPP/CarnavalDiablo/app/src/main/res/layout/nav_header_navigation_drawer__home.xml"
-    },
-    {
         "merged": "/Users/JuanSe/Desktop/CAPP/CarnavalDiablo/app/build/intermediates/res/merged/debug/layout/activity_noticias.xml",
         "source": "/Users/JuanSe/Desktop/CAPP/CarnavalDiablo/app/src/main/res/layout/activity_noticias.xml"
+    },
+    {
+        "merged": "/Users/JuanSe/Desktop/CAPP/CarnavalDiablo/app/build/intermediates/res/merged/debug/layout/nav_header_navigation_drawer__home.xml",
+        "source": "/Users/JuanSe/Desktop/CAPP/CarnavalDiablo/app/src/main/res/layout/nav_header_navigation_drawer__home.xml"
     },
     {
         "merged": "/Users/JuanSe/Desktop/CAPP/CarnavalDiablo/app/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",
@@ -88,12 +92,12 @@
         "source": "/Users/JuanSe/Desktop/CAPP/CarnavalDiablo/app/src/main/res/layout/fragment_segundo.xml"
     },
     {
-        "merged": "/Users/JuanSe/Desktop/CAPP/CarnavalDiablo/app/build/intermediates/res/merged/debug/layout/activity_cardview.xml",
-        "source": "/Users/JuanSe/Desktop/CAPP/CarnavalDiablo/app/src/main/res/layout/activity_cardview.xml"
-    },
-    {
         "merged": "/Users/JuanSe/Desktop/CAPP/CarnavalDiablo/app/build/intermediates/res/merged/debug/layout/activity_welcome.xml",
         "source": "/Users/JuanSe/Desktop/CAPP/CarnavalDiablo/app/src/main/res/layout/activity_welcome.xml"
+    },
+    {
+        "merged": "/Users/JuanSe/Desktop/CAPP/CarnavalDiablo/app/build/intermediates/res/merged/debug/layout/activity_cardview.xml",
+        "source": "/Users/JuanSe/Desktop/CAPP/CarnavalDiablo/app/src/main/res/layout/activity_cardview.xml"
     },
     {
         "merged": "/Users/JuanSe/Desktop/CAPP/CarnavalDiablo/app/build/intermediates/res/merged/debug/layout/app_bar_main.xml",
@@ -132,12 +136,12 @@
         "source": "/Users/JuanSe/Desktop/CAPP/CarnavalDiablo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_action_bar_title_item.xml"
     },
     {
-        "merged": "/Users/JuanSe/Desktop/CAPP/CarnavalDiablo/app/build/intermediates/res/merged/debug/layout/content_cardview.xml",
-        "source": "/Users/JuanSe/Desktop/CAPP/CarnavalDiablo/app/src/main/res/layout/content_cardview.xml"
-    },
-    {
         "merged": "/Users/JuanSe/Desktop/CAPP/CarnavalDiablo/app/build/intermediates/res/merged/debug/layout/place_autocomplete_item_prediction.xml",
         "source": "/Users/JuanSe/Desktop/CAPP/CarnavalDiablo/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.4.0/res/layout/place_autocomplete_item_prediction.xml"
+    },
+    {
+        "merged": "/Users/JuanSe/Desktop/CAPP/CarnavalDiablo/app/build/intermediates/res/merged/debug/layout/content_cardview.xml",
+        "source": "/Users/JuanSe/Desktop/CAPP/CarnavalDiablo/app/src/main/res/layout/content_cardview.xml"
     },
     {
         "merged": "/Users/JuanSe/Desktop/CAPP/CarnavalDiablo/app/build/intermediates/res/merged/debug/layout/activity_cuadrillas.xml",

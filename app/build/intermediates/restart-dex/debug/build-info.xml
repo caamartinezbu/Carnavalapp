@@ -5,40 +5,33 @@
     density="xhdpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="1856834693563"
+    timestamp="5639097476251"
     token="-6887366253489673742"
-    verifier="COMPATIBLE" >
+    verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="1763" />
+        duration="1186" />
     <task
         name="instant-run-dex"
-        duration="1019" />
+        duration="0" />
     <task
         name="instant-run-transform"
-        duration="51" />
+        duration="57" />
     <task
         name="verifier"
-        duration="14" />
+        duration="1" />
 
     <artifact
-        location="/Users/JuanSe/Desktop/CAPP/CarnavalDiablo/app/build/intermediates/reload-dex/debug/classes.dex"
-        type="RELOAD_DEX" />
+        location="/Users/JuanSe/Desktop/CAPP/CarnavalDiablo/app/build/outputs/apk/app-debug.apk"
+        type="MAIN" />
 
     <build
-        timestamp="1660411072140"
+        timestamp="5639097476251"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/Users/JuanSe/Desktop/CAPP/CarnavalDiablo/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
-    </build>
-    <build
-        timestamp="1856834693563"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="/Users/JuanSe/Desktop/CAPP/CarnavalDiablo/app/build/intermediates/reload-dex/debug/classes.dex"
-            type="RELOAD_DEX" />
     </build>
 
 </instant-run>

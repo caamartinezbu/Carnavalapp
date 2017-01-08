@@ -32,12 +32,12 @@
         "source": "/Users/JuanSe/Desktop/CAPP/CarnavalDiablo/app/src/main/res/drawable-xhdpi/ic_final.png"
     },
     {
-        "merged": "/Users/JuanSe/Desktop/CAPP/CarnavalDiablo/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_plusone_small_off_client.png",
-        "source": "/Users/JuanSe/Desktop/CAPP/CarnavalDiablo/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/8.4.0/res/drawable-xhdpi/ic_plusone_small_off_client.png"
-    },
-    {
         "merged": "/Users/JuanSe/Desktop/CAPP/CarnavalDiablo/app/build/intermediates/res/merged/debug/drawable-xhdpi/common_plus_signin_btn_text_light_pressed.9.png",
         "source": "/Users/JuanSe/Desktop/CAPP/CarnavalDiablo/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-xhdpi/common_plus_signin_btn_text_light_pressed.9.png"
+    },
+    {
+        "merged": "/Users/JuanSe/Desktop/CAPP/CarnavalDiablo/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_plusone_small_off_client.png",
+        "source": "/Users/JuanSe/Desktop/CAPP/CarnavalDiablo/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/8.4.0/res/drawable-xhdpi/ic_plusone_small_off_client.png"
     },
     {
         "merged": "/Users/JuanSe/Desktop/CAPP/CarnavalDiablo/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_pause_dark.png",
@@ -144,12 +144,12 @@
         "source": "/Users/JuanSe/Desktop/CAPP/CarnavalDiablo/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-xhdpi/common_plus_signin_btn_icon_dark_disabled.9.png"
     },
     {
-        "merged": "/Users/JuanSe/Desktop/CAPP/CarnavalDiablo/app/build/intermediates/res/merged/debug/drawable-xhdpi/common_google_signin_btn_icon_dark_focused.9.png",
-        "source": "/Users/JuanSe/Desktop/CAPP/CarnavalDiablo/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-xhdpi/common_google_signin_btn_icon_dark_focused.9.png"
-    },
-    {
         "merged": "/Users/JuanSe/Desktop/CAPP/CarnavalDiablo/app/build/intermediates/res/merged/debug/drawable-xhdpi/common_google_signin_btn_text_light_normal.9.png",
         "source": "/Users/JuanSe/Desktop/CAPP/CarnavalDiablo/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-xhdpi/common_google_signin_btn_text_light_normal.9.png"
+    },
+    {
+        "merged": "/Users/JuanSe/Desktop/CAPP/CarnavalDiablo/app/build/intermediates/res/merged/debug/drawable-xhdpi/common_google_signin_btn_icon_dark_focused.9.png",
+        "source": "/Users/JuanSe/Desktop/CAPP/CarnavalDiablo/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-xhdpi/common_google_signin_btn_icon_dark_focused.9.png"
     },
     {
         "merged": "/Users/JuanSe/Desktop/CAPP/CarnavalDiablo/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_alimento.png",
@@ -244,12 +244,12 @@
         "source": "/Users/JuanSe/Desktop/CAPP/CarnavalDiablo/app/build/generated/res/pngs/debug/drawable-xhdpi/logout.png"
     },
     {
-        "merged": "/Users/JuanSe/Desktop/CAPP/CarnavalDiablo/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_plusone_tall_off_client.png",
-        "source": "/Users/JuanSe/Desktop/CAPP/CarnavalDiablo/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/8.4.0/res/drawable-xhdpi/ic_plusone_tall_off_client.png"
-    },
-    {
         "merged": "/Users/JuanSe/Desktop/CAPP/CarnavalDiablo/app/build/intermediates/res/merged/debug/drawable-xhdpi/common_google_signin_btn_icon_light_pressed.9.png",
         "source": "/Users/JuanSe/Desktop/CAPP/CarnavalDiablo/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-xhdpi/common_google_signin_btn_icon_light_pressed.9.png"
+    },
+    {
+        "merged": "/Users/JuanSe/Desktop/CAPP/CarnavalDiablo/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_plusone_tall_off_client.png",
+        "source": "/Users/JuanSe/Desktop/CAPP/CarnavalDiablo/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/8.4.0/res/drawable-xhdpi/ic_plusone_tall_off_client.png"
     },
     {
         "merged": "/Users/JuanSe/Desktop/CAPP/CarnavalDiablo/app/build/intermediates/res/merged/debug/drawable-xhdpi/powered_by_google_light.png",

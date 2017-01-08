@@ -44,12 +44,12 @@
         "source": "/Users/JuanSe/Desktop/CAPP/CarnavalDiablo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_switch_thumb_material.xml"
     },
     {
-        "merged": "/Users/JuanSe/Desktop/CAPP/CarnavalDiablo/app/build/intermediates/res/merged/debug/drawable/ic_menu_notam.png",
-        "source": "/Users/JuanSe/Desktop/CAPP/CarnavalDiablo/app/src/main/res/drawable/ic_menu_notam.png"
-    },
-    {
         "merged": "/Users/JuanSe/Desktop/CAPP/CarnavalDiablo/app/build/intermediates/res/merged/debug/drawable/abc_spinner_textfield_background_material.xml",
         "source": "/Users/JuanSe/Desktop/CAPP/CarnavalDiablo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "/Users/JuanSe/Desktop/CAPP/CarnavalDiablo/app/build/intermediates/res/merged/debug/drawable/ic_menu_notam.png",
+        "source": "/Users/JuanSe/Desktop/CAPP/CarnavalDiablo/app/src/main/res/drawable/ic_menu_notam.png"
     },
     {
         "merged": "/Users/JuanSe/Desktop/CAPP/CarnavalDiablo/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_full_material.xml",
@@ -60,12 +60,12 @@
         "source": "/Users/JuanSe/Desktop/CAPP/CarnavalDiablo/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/drawable/mr_ic_media_route_mono_dark.xml"
     },
     {
-        "merged": "/Users/JuanSe/Desktop/CAPP/CarnavalDiablo/app/build/intermediates/res/merged/debug/drawable/mr_ic_media_route_connecting_mono_dark.xml",
-        "source": "/Users/JuanSe/Desktop/CAPP/CarnavalDiablo/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/drawable/mr_ic_media_route_connecting_mono_dark.xml"
-    },
-    {
         "merged": "/Users/JuanSe/Desktop/CAPP/CarnavalDiablo/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_track_material.xml",
         "source": "/Users/JuanSe/Desktop/CAPP/CarnavalDiablo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "/Users/JuanSe/Desktop/CAPP/CarnavalDiablo/app/build/intermediates/res/merged/debug/drawable/mr_ic_media_route_connecting_mono_dark.xml",
+        "source": "/Users/JuanSe/Desktop/CAPP/CarnavalDiablo/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/drawable/mr_ic_media_route_connecting_mono_dark.xml"
     },
     {
         "merged": "/Users/JuanSe/Desktop/CAPP/CarnavalDiablo/app/build/intermediates/res/merged/debug/drawable/ic_cachos2.png",
@@ -100,12 +100,12 @@
         "source": "/Users/JuanSe/Desktop/CAPP/CarnavalDiablo/app/src/main/res/drawable/icono_13.png"
     },
     {
-        "merged": "/Users/JuanSe/Desktop/CAPP/CarnavalDiablo/app/build/intermediates/res/merged/debug/drawable/abc_textfield_search_material.xml",
-        "source": "/Users/JuanSe/Desktop/CAPP/CarnavalDiablo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_textfield_search_material.xml"
-    },
-    {
         "merged": "/Users/JuanSe/Desktop/CAPP/CarnavalDiablo/app/build/intermediates/res/merged/debug/drawable/ic_menu_historia.png",
         "source": "/Users/JuanSe/Desktop/CAPP/CarnavalDiablo/app/src/main/res/drawable/ic_menu_historia.png"
+    },
+    {
+        "merged": "/Users/JuanSe/Desktop/CAPP/CarnavalDiablo/app/build/intermediates/res/merged/debug/drawable/abc_textfield_search_material.xml",
+        "source": "/Users/JuanSe/Desktop/CAPP/CarnavalDiablo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_textfield_search_material.xml"
     },
     {
         "merged": "/Users/JuanSe/Desktop/CAPP/CarnavalDiablo/app/build/intermediates/res/merged/debug/drawable/ic_noticias.png",
