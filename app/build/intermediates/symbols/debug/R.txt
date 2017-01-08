@@ -1076,7 +1076,7 @@ int id image 0x7f0e0069
 int id imageView 0x7f0e00ee
 int id imageView2 0x7f0e00fd
 int id imgFoto 0x7f0e00bd
-int id imvPhoto 0x7f0e0113
+int id imvPhoto 0x7f0e0114
 int id info 0x7f0e00fb
 int id item_navigation_drawer_himno 0x7f0e0128
 int id item_navigation_drawer_historia 0x7f0e0129
@@ -1222,7 +1222,7 @@ int id text 0x7f0e00fa
 int id text2 0x7f0e00f8
 int id textCapitan 0x7f0e0111
 int id textCiudad 0x7f0e0112
-int id textFecha_news 0x7f0e0114
+int id textFecha_news 0x7f0e0113
 int id textFishName 0x7f0e010c
 int id textNombre 0x7f0e0110
 int id textPrice 0x7f0e010e
@@ -1376,7 +1376,6 @@ int layout welcome_slide4 0x7f04006b
 int menu activity_main_drawer 0x7f0f0000
 int menu activity_navigation_drawer__home_drawer 0x7f0f0001
 int menu main 0x7f0f0002
-int menu navigation_drawer__home 0x7f0f0003
 int mipmap btn_cuadrillas 0x7f030000
 int mipmap btn_noticias 0x7f030001
 int mipmap btn_programacion 0x7f030002

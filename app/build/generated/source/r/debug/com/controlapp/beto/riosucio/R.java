@@ -3692,7 +3692,7 @@ containing a value of this type.
         public static final int imageView=0x7f0e00ee;
         public static final int imageView2=0x7f0e00fd;
         public static final int imgFoto=0x7f0e00bd;
-        public static final int imvPhoto=0x7f0e0113;
+        public static final int imvPhoto=0x7f0e0114;
         public static final int info=0x7f0e00fb;
         public static final int item_navigation_drawer_himno=0x7f0e0128;
         public static final int item_navigation_drawer_historia=0x7f0e0129;
@@ -3838,7 +3838,7 @@ containing a value of this type.
         public static final int text2=0x7f0e00f8;
         public static final int textCapitan=0x7f0e0111;
         public static final int textCiudad=0x7f0e0112;
-        public static final int textFecha_news=0x7f0e0114;
+        public static final int textFecha_news=0x7f0e0113;
         public static final int textFishName=0x7f0e010c;
         public static final int textNombre=0x7f0e0110;
         public static final int textPrice=0x7f0e010e;
@@ -3998,7 +3998,6 @@ containing a value of this type.
         public static final int activity_main_drawer=0x7f0f0000;
         public static final int activity_navigation_drawer__home_drawer=0x7f0f0001;
         public static final int main=0x7f0f0002;
-        public static final int navigation_drawer__home=0x7f0f0003;
     }
     public static final class mipmap {
         public static final int btn_cuadrillas=0x7f030000;

@@ -120,7 +120,7 @@
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/ic_fecha"
+                    android:src="@drawable/ic_person"
                     android:layout_marginLeft="20dp"/>
                 <TextView
                     android:layout_width="match_parent"
@@ -141,10 +141,11 @@
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/ic_hora"
+                    android:src="@drawable/map_marker_radius"
                     android:layout_marginLeft="20dp"/>
+
                 <TextView
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Ciudad"
                     android:id="@+id/gangCity"
@@ -157,25 +158,29 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
+                android:orientation="vertical"
                 android:padding="10dp">
-                <ImageView
-                    android:layout_width="wrap_content"
+
+                <TextView
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/ic_lugar"
-                    android:layout_marginLeft="20dp"/>
+                    android:text="Presentación:"
+                    android:padding="5dp"
+                    android:layout_marginLeft="10dp"/>
+
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Presentación"
                     android:padding="5dp"
                     android:id="@+id/prententation"
-                    android:layout_marginLeft="10dp"/>
+                    android:layout_marginLeft="10dp"
+                    />
             </LinearLayout>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
-                android:background="#ccc"
+                android:background="#fefefefe"
                 android:layout_margin="30dp"
                                 />
 
@@ -188,11 +193,25 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:text="Primera Canción"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="5dp"
+                    android:textAlignment="center"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
                     android:text="Letra 1:"
                     android:layout_marginLeft="20dp"
                     android:layout_marginRight="20dp"
                     android:layout_marginBottom="5dp"
                     android:id="@+id/titulo1"
+                    android:textColor="@color/black"
+                    android:textAlignment="center"
                     />
                 <TextView
                     android:layout_width="match_parent"
@@ -200,6 +219,8 @@
                     android:id="@+id/letra1"
                     android:layout_marginLeft="20dp"
                     android:layout_marginRight="20dp"
+                    android:textAlignment="center"
+                    android:layout_margin="20dp"
                     />
             </LinearLayout>
 
@@ -207,23 +228,37 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="10dp"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Segunda Cancion:"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="5dp"
+                    android:textAlignment="center"
+                    />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Letra 1:"
+                    android:text="Segunda Cancion:"
                     android:layout_marginLeft="20dp"
                     android:layout_marginRight="20dp"
                     android:layout_marginBottom="5dp"
                     android:id="@+id/titulo2"
+                    android:textColor="@color/black"
+                    android:textAlignment="center"
                     />
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/letra2"
-                    android:layout_marginLeft="20dp"
-                    android:layout_marginRight="20dp"
+                    android:layout_margin="20dp"
+                    android:textAlignment="center"
                     />
             </LinearLayout>
 
@@ -231,23 +266,38 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="10dp"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tercera Cancion:"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="5dp"
+                    android:textAlignment="center"
+                    />
+
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Letra 1:"
+                    android:text="Tercera cancion"
                     android:layout_marginLeft="20dp"
                     android:layout_marginRight="20dp"
                     android:layout_marginBottom="5dp"
                     android:id="@+id/titulo3"
+                    android:textColor="@color/black"
+                    android:textAlignment="center"
                     />
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/letra3"
-                    android:layout_marginLeft="20dp"
-                    android:layout_marginRight="20dp"
+                    android:textAlignment="center"
+                   android:layout_margin="20dp"
                     />
             </LinearLayout>
 

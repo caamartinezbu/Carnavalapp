@@ -6,7 +6,7 @@
     <dimen name="margen_buton">16dp</dimen>
     <dimen name="elevation_boton">6dp</dimen>
     <dimen name="fab_margin">16dp</dimen>
-    <dimen name="altura_tarjeta1">160dp</dimen>
+    <dimen name="altura_tarjeta1">165dp</dimen>
     <dimen name="altura_tarjetanoticia">140dp</dimen>
     <dimen name="padding_tarjetaRL">5dp</dimen>
     <dimen name="activity_horizontal_cardview">7dp</dimen>

@@ -60,7 +60,7 @@ public class DefaultNew extends AppCompatActivity {
         initCollapsingToolbar();
 
         collapsingToolbarLayout = (CollapsingToolbarLayout) findViewById(R.id.collapsing_toolbar);
-        collapsingToolbarLayout.setTitle(getResources().getString(R.string.title_activity_programacion));
+        collapsingToolbarLayout.setTitle(getResources().getString(R.string.title_activity_news));
 
 
         toolbarTextAppernce();
@@ -104,7 +104,7 @@ public class DefaultNew extends AppCompatActivity {
                     scrollRange = appBarLayout.getTotalScrollRange();
                 }
                 if (scrollRange + verticalOffset == 0) {
-                    collapsingToolbar.setTitle(getString(R.string.title_activity_programacion));
+                    collapsingToolbar.setTitle(getString(R.string.title_activity_news));
                     isShow = true;
                 } else if (isShow) {
                     collapsingToolbar.setTitle(" ");

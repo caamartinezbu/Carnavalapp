@@ -129,14 +129,7 @@ private void inicializaAdaptador(){
         }
     }
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.navigation_drawer__home, menu);
-        return true;
-    }
-
-    @Override
+     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         // Handle action bar item clicks here. The action bar will
         // automatically handle clicks on the Home/Up button, so long
@@ -150,31 +143,6 @@ private void inicializaAdaptador(){
 
         return super.onOptionsItemSelected(item);
     }
-/*
-   @SuppressWarnings("StatementWithEmptyBody")
-    @Override
-    public boolean onNavigationItemSelected(MenuItem item) {
-        // Handle navigation view item clicks here.
-       /* int id = item.getItemId();
-
-        if (id == R.id.nav_camera) {
-            // Handle the camera action
-        } else if (id == R.id.nav_gallery) {
-
-        } else if (id == R.id.nav_slideshow) {
-
-        } else if (id == R.id.nav_manage) {
-
-        } else if (id == R.id.nav_share) {
-
-        } else if (id == R.id.nav_send) {
-
-        }
-
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
-        drawer.closeDrawer(GravityCompat.START);
-        return true;
-    }*/
 
 
     private void setupNavigationDrawerContent(NavigationView navigationView) {
@@ -209,15 +177,7 @@ private void inicializaAdaptador(){
                                 Intent intent2 = new Intent(NavigationDrawer_Home.this, MainActivity.class);
                                 startActivity(intent2);
                                 return true;
-                            /*case R.id.item_navigation_drawer_cuadrillas:
-                                menuItem.setChecked(true);
-                                //Toast.makeText(NavigationDrawer_Home.this, "cuadrillas " + menuItem.getTitle().toString(), Toast.LENGTH_SHORT).show();
-                                DrawerLayout drawer1 = (DrawerLayout) findViewById(R.id.drawer_layout);
-                                drawer1.closeDrawer(GravityCompat.START);
-                                Intent intent = new Intent(NavigationDrawer_Home.this, Cuadrillas.class);
-                                startActivity(intent);
-                                return true;*/
-                            case R.id.item_navigation_drawer_tutorial:
+                               case R.id.item_navigation_drawer_tutorial:
                                 menuItem.setChecked(true);
                                 DrawerLayout drawer5 = (DrawerLayout) findViewById(R.id.drawer_layout);
                                 drawer5.closeDrawer(GravityCompat.START);

@@ -1,10 +1,10 @@
 [
     {
-        "merged": "/Users/JuanSe/Desktop/CAPP/CarnavalDiablo/app/build/intermediates/res/merged/debug/anim-v21/design_bottom_sheet_slide_in.xml",
-        "source": "/Users/JuanSe/Desktop/CAPP/CarnavalDiablo/app/build/intermediates/exploded-aar/com.android.support/design/23.4.0/res/anim-v21/design_bottom_sheet_slide_in.xml"
+        "merged": "D:\\Desktop\\Repositorio app\\CarnavalDiablo\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_in.xml",
+        "source": "D:\\Desktop\\Repositorio app\\CarnavalDiablo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.4.0\\res\\anim-v21\\design_bottom_sheet_slide_in.xml"
     },
     {
-        "merged": "/Users/JuanSe/Desktop/CAPP/CarnavalDiablo/app/build/intermediates/res/merged/debug/anim-v21/design_bottom_sheet_slide_out.xml",
-        "source": "/Users/JuanSe/Desktop/CAPP/CarnavalDiablo/app/build/intermediates/exploded-aar/com.android.support/design/23.4.0/res/anim-v21/design_bottom_sheet_slide_out.xml"
+        "merged": "D:\\Desktop\\Repositorio app\\CarnavalDiablo\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_out.xml",
+        "source": "D:\\Desktop\\Repositorio app\\CarnavalDiablo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.4.0\\res\\anim-v21\\design_bottom_sheet_slide_out.xml"
     }
 ]

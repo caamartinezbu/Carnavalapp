@@ -48,9 +48,9 @@ class ServerConnection extends AsyncTask<String, Void, String> {
 
         if (output != null) {
 
-            TextView lblMessage = (TextView) this.cuadrillas_view.findViewById(R.id.lblMessage);
+         /*   TextView lblMessage = (TextView) this.cuadrillas_view.findViewById(R.id.lblMessage);
             lblMessage.setText("Faltan " + output +  " dias para que se desbloquee el contenido de cuadrillas");
-            lblMessage.setGravity(Gravity.CENTER_VERTICAL | Gravity.CENTER_HORIZONTAL);
+            lblMessage.setGravity(Gravity.CENTER_VERTICAL | Gravity.CENTER_HORIZONTAL);*/
             //Toast.makeText(this.cuadrillas_view, output, Toast.LENGTH_SHORT).show();
         }
 
