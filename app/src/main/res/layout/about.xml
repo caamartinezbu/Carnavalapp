@@ -54,10 +54,23 @@
             android:layout_height="wrap_content"
             android:text="Mobile Solutions Team®"
             android:textColor="@android:color/white"
-            android:textSize="25dp"
+            android:textSize="20dp"
             android:padding="20dp"
             android:textStyle="bold"
             android:id="@+id/textView3" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="@dimen/desc_padding"
+            android:paddingRight="@dimen/desc_padding"
+            android:text="https://www.facebook.com/controlappco/"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/slide_desc"
+            />
 
 
         <TextView

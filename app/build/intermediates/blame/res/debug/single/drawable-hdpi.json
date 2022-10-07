@@ -280,12 +280,12 @@
         "source": "D:\\Desktop\\Repositorio app\\CarnavalDiablo\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-hdpi\\common_plus_signin_btn_text_light_focused.9.png"
     },
     {
-        "merged": "D:\\Desktop\\Repositorio app\\CarnavalDiablo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_person.png",
-        "source": "D:\\Desktop\\Repositorio app\\CarnavalDiablo\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_person.png"
-    },
-    {
         "merged": "D:\\Desktop\\Repositorio app\\CarnavalDiablo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_cast_light.png",
         "source": "D:\\Desktop\\Repositorio app\\CarnavalDiablo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\drawable-hdpi\\ic_cast_light.png"
+    },
+    {
+        "merged": "D:\\Desktop\\Repositorio app\\CarnavalDiablo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_person.png",
+        "source": "D:\\Desktop\\Repositorio app\\CarnavalDiablo\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_person.png"
     },
     {
         "merged": "D:\\Desktop\\Repositorio app\\CarnavalDiablo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\common_plus_signin_btn_icon_light_pressed.9.png",
